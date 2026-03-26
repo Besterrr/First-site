@@ -1,0 +1,19 @@
+:root {
+    /* Цвета */
+    --bg-dark: rgb(18, 18, 26);
+    --text-gray: rgb(104, 104, 109);
+    --accent-orange: rgb(187, 81, 45);
+    --border-gray: #2a2a3a;
+    --white: #ffffff;
+
+    /* Размеры */
+    --container-width: 1312px;
+    --card-width: 250px;
+    --card-height: 250px;
+    --gap-large: 30px;
+    --gap-medium: 20px;
+
+    /* Скругления */
+    --radius-card: 10%;
+    --radius-image: 15%;
+}

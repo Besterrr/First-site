@@ -1,0 +1,84 @@
+@import '../../styles/variable.css';
+
+nav {
+    border-radius: 10%;
+    width: 100%;
+    background: var(--bg-dark);
+}
+
+.container {
+    color: var(--white);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.container img {
+    border-radius: var(--radius-image);
+    width: 30%;
+}
+
+.container a {
+    color: var(--text-gray);
+    padding: 30px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.container a:hover {
+    color: var(--accent-orange);
+    text-decoration: underline;
+}
+
+.container__links {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.login-button{
+    color: var(--text-gray);
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 20px;
+    border: none;
+    outline: none
+}
+
+.login-button:hover{
+    cursor: pointer;
+    color: var(--accent-orange);
+    text-decoration: underline;
+}
+
+form{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-button{
+    width: 100%;
+    padding: 12px 16px;
+    background: rgb(187, 81, 45);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: inherit;
+}
+
+.form-button:hover {
+    background: rgb(157, 61, 35);
+    transform: translateY(-1px);
+}
+
+.form-title{
+    color: var(--text-gray);
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    text-align: center;
+}

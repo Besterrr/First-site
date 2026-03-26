@@ -1,0 +1,204 @@
+{
+  "skinsData": [
+    {
+      "id": 1,
+      "sellerName": "Alex_SkinMaster",
+      "itemName": "USP-S | Printstream",
+      "collection": "Printstream Collection",
+      "price": 12500,
+      "wear": "Factory New",
+      "inStock": true,
+      "imageUrl": "/usp.webp"
+    },
+    {
+      "id": 2,
+      "sellerName": "CS2_Trader",
+      "itemName": "USP-S | Printstream",
+      "collection": "Printstream Collection",
+      "price": 11800,
+      "wear": "Minimal Wear",
+      "inStock": true,
+      "imageUrl": "/usp.webp"
+    },
+    {
+      "id": 3,
+      "sellerName": "SkinHunter",
+      "itemName": "USP-S | Printstream",
+      "collection": "Printstream Collection",
+      "price": 10500,
+      "wear": "Field-Tested",
+      "inStock": true,
+      "imageUrl": "/usp.webp"
+    },
+    {
+      "id": 4,
+      "sellerName": "ProPlayer",
+      "itemName": "M4A1-S | Printstream",
+      "collection": "Printstream Collection",
+      "price": 18500,
+      "wear": "Factory New",
+      "inStock": true,
+      "imageUrl": "/m4a1s.webp"
+    },
+    {
+      "id": 5,
+      "sellerName": "SkinMarket",
+      "itemName": "M4A1-S | Printstream",
+      "collection": "Printstream Collection",
+      "price": 17200,
+      "wear": "Minimal Wear",
+      "inStock": true,
+      "imageUrl": "/m4a1s.webp"
+    },
+    {
+      "id": 6,
+      "sellerName": "CSDealer",
+      "itemName": "M4A1-S | Printstream",
+      "collection": "Printstream Collection",
+      "price": 15800,
+      "wear": "Field-Tested",
+      "inStock": false,
+      "imageUrl": "/m4a1s.webp"
+    },
+    {
+      "id": 7,
+      "sellerName": "AWP_Legend",
+      "itemName": "AWP | Printstream",
+      "collection": "Printstream Collection",
+      "price": 32500,
+      "wear": "Factory New",
+      "inStock": true,
+      "imageUrl": "/awp.webp"
+    },
+    {
+      "id": 8,
+      "sellerName": "EliteTrader",
+      "itemName": "AWP | Printstream",
+      "collection": "Printstream Collection",
+      "price": 29800,
+      "wear": "Minimal Wear",
+      "inStock": true,
+      "imageUrl": "/awp.webp"
+    },
+    {
+      "id": 9,
+      "sellerName": "Deagle_King",
+      "itemName": "Desert Eagle | Printstream",
+      "collection": "Printstream Collection",
+      "price": 9500,
+      "wear": "Factory New",
+      "inStock": true,
+      "imageUrl": "/deagle.webp"
+    },
+    {
+      "id": 10,
+      "sellerName": "PistolMaster",
+      "itemName": "Desert Eagle | Printstream",
+      "collection": "Printstream Collection",
+      "price": 8700,
+      "wear": "Minimal Wear",
+      "inStock": true,
+      "imageUrl": "/deagle.webp"
+    },
+    {
+      "id": 11,
+      "sellerName": "AK_Trader",
+      "itemName": "AK-47 | Wild Lotus",
+      "collection": "Marc Collection",
+      "price": 24500,
+      "wear": "Factory New",
+      "inStock": true,
+      "imageUrl": "/ak47.webp"
+    },
+    {
+      "id": 12,
+      "sellerName": "RifleExpert",
+      "itemName": "AK-47 | Wild Lotus",
+      "collection": "Marc Collection",
+      "price": 22800,
+      "wear": "Minimal Wear",
+      "inStock": true,
+      "imageUrl": "/ak47.webp"
+    },
+    {
+      "id": 13,
+      "sellerName": "GlockMaster",
+      "itemName": "Glock-18 | Gamma-Dopler",
+      "collection": "Gamma Collection",
+      "price": 6800,
+      "wear": "Factory New",
+      "inStock": true,
+      "imageUrl": "/glock.webp"
+    },
+    {
+      "id": 14,
+      "sellerName": "SkinCollector",
+      "itemName": "Glock-18 | Gamma-Dopler",
+      "collection": "Gamma Collection",
+      "price": 5900,
+      "wear": "Minimal Wear",
+      "inStock": false,
+      "imageUrl": "/glock.webp"
+    },
+    {
+      "id": 15,
+      "sellerName": "CS_Investor",
+      "itemName": "USP-S | Printstream",
+      "collection": "Printstream Collection",
+      "price": 11200,
+      "wear": "Minimal Wear",
+      "inStock": true,
+      "imageUrl": "/usp.webp"
+    },
+    {
+      "id": 16,
+      "sellerName": "SkinBoss",
+      "itemName": "M4A4 | Temukau",
+      "collection": "Revolution Collection",
+      "price": 19500,
+      "wear": "Factory New",
+      "inStock": true,
+      "imageUrl": "/m4a4.webp"
+    },
+    {
+      "id": 17,
+      "sellerName": "TradeGod",
+      "itemName": "M4A4 | Temukau",
+      "collection": "Revolution Collection",
+      "price": 17800,
+      "wear": "Minimal Wear",
+      "inStock": true,
+      "imageUrl": "/m4a4.webp"
+    },
+    {
+      "id": 18,
+      "sellerName": "SniperPro",
+      "itemName": "SSG 08 | Dragonfire",
+      "collection": "Glove Collection",
+      "price": 8500,
+      "wear": "Factory New",
+      "inStock": true,
+      "imageUrl": "/ssg.webp"
+    },
+    {
+      "id": 19,
+      "sellerName": "SkinMarket",
+      "itemName": "P250 | See Ya Later",
+      "collection": "Spectrum Collection",
+      "price": 4200,
+      "wear": "Factory New",
+      "inStock": true,
+      "imageUrl": "/p250.webp"
+    },
+    {
+      "id": 20,
+      "sellerName": "CS2_Trader",
+      "itemName": "Five-SeveN | Monkey Business",
+      "collection": "Chroma Collection",
+      "price": 3800,
+      "wear": "Factory New",
+      "inStock": true,
+      "imageUrl": "/fiveSeven.webp"
+    }
+  ]
+}

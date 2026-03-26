@@ -1,0 +1,171 @@
+/* SkinDetail.css */
+.skin-detail-page {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+    min-height: 60vh;
+}
+
+.back-btn {
+    background: none;
+    border: none;
+    color: rgb(104, 104, 109);
+    font-size: 16px;
+    cursor: pointer;
+    padding: 8px 16px;
+    margin-bottom: 30px;
+    transition: color 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.back-btn:hover {
+    color: rgb(187, 81, 45);
+}
+
+.skin-detail-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    background: rgba(30, 30, 40, 0.8);
+    border-radius: 20px;
+    padding: 30px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.skin-detail-image {
+    border-radius: 15px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.skin-detail-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.skin-detail-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skin-detail-name {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.skin-detail-seller {
+    color: rgb(104, 104, 109);
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.skin-detail-price {
+    display: flex;
+    align-items: baseline;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.price-label {
+    color: rgb(104, 104, 109);
+    font-size: 16px;
+}
+
+.price-value {
+    font-size: 36px;
+    font-weight: 700;
+    color: rgb(187, 81, 45);
+}
+
+.skin-detail-wear,
+.skin-detail-stock {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.wear-label,
+.stock-label {
+    color: rgb(104, 104, 109);
+    font-size: 16px;
+}
+
+.skin-detail-description {
+    margin-top: 10px;
+}
+
+.skin-detail-description h3 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.skin-detail-description p {
+    color: rgb(104, 104, 109);
+    line-height: 1.6;
+}
+
+.buy-btn {
+    margin-top: 20px;
+    padding: 14px 32px;
+    background: rgb(187, 81, 45);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: fit-content;
+}
+
+.buy-btn:hover:not(:disabled) {
+    background: rgb(157, 61, 35);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(187, 81, 45, 0.4);
+}
+
+.buy-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.not-found {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.not-found h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.not-found a {
+    color: rgb(187, 81, 45);
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .skin-detail-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .skin-detail-name {
+        font-size: 24px;
+    }
+
+    .price-value {
+        font-size: 28px;
+    }
+}
