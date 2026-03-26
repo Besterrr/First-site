@@ -1,11 +1,16 @@
 import React from 'react';
 import cl from "./MyInput.module.css"
 
-const MyInput = () => {
+const MyInput = ({value, onChange, placeholder, type = "text", ...props}) => {
     return (
-            <input className={cl.myInput} type="text"
-
-            />
+        <input
+            className={cl.myInput}
+            type={type}
+            value={value}
+            onChange={onChange}
+            placeholder={placeholder}
+            {...props}
+        />
     );
 };
 

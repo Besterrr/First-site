@@ -82,3 +82,24 @@ form{
     margin-bottom: 24px;
     text-align: center;
 }
+
+.container__login {
+    position: relative;
+}
+
+.user-menu-button {
+    color: var(--text-gray);
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 30px;
+    transition: all 0.3s ease;
+    font-family: inherit;
+}
+
+.user-menu-button:hover {
+    color: var(--accent-orange);
+    text-decoration: underline;
+}
+

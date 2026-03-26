@@ -1,15 +1,20 @@
-import React, {useContext} from 'react';
+import React, {useContext, useState} from 'react';
 import {Link} from "react-router-dom";
-import {AuthContext} from "../context/index.js";
+import {AuthContext} from "../context/AuthContext.jsx";
+import UserMenu from "./UserMenu.jsx";
 
 const Navigation = () => {
 
-    const {isAuth, setIsAuth} = useContext(AuthContext);
+    const {isAuth, user, logout} = useContext(AuthContext);
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-    const logout = () => {
-        setIsAuth(false);
-        localStorage.removeItem("auth");
-    }
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen);
+    };
+
+    const closeMenu = () => {
+        setIsMenuOpen(false);
+    };
 
     return (
         <nav>
@@ -34,13 +39,26 @@ const Navigation = () => {
                     </Link>
                 </div>
 
-                <div className= "container__login">
-                    {isAuth
-                        ? <button onClick={logout} className = "login-button">Выйти</button>
-                        : <Link className = "login-button" to= "/login">LOGIN</Link>
-                    }
-
-                    </div>
+                <div className="container__login">
+                    {isAuth ? (
+                        <>
+                            <button
+                                onClick={toggleMenu}
+                                className="user-menu-button"
+                            >
+                                {user?.username || 'Профиль'}
+                            </button>
+                            <UserMenu
+                                isOpen={isMenuOpen}
+                                onClose={closeMenu}
+                            />
+                        </>
+                    ) : (
+                        <Link className="login-button" to="/login">
+                            LOGIN
+                        </Link>
+                    )}
+                </div>
             </div>
             <hr/>
         </nav>

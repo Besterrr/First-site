@@ -4,7 +4,7 @@ import { skinsData } from "../data.json";
 import Footer from "../components/Footer.jsx";
 import Navigation from "../components/Navigation.jsx";
 import "./SkinIdPage.css"
-import {AuthContext} from "../context/index.js";
+import {AuthContext} from "../context/AuthContext.jsx";
 
 const SkinIdPage = () => {
     const { id } = useParams();

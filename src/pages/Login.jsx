@@ -1,28 +1,35 @@
-import React, {useContext} from 'react';
+import React, {useContext, useState} from 'react';
 import MyInput from "../UI/input/MyInput.jsx";
 import {useNavigate} from "react-router-dom";
-import {AuthContext} from "../context/index.js";
+import {AuthContext} from "../context/AuthContext.jsx";
 
 const Login = () => {
-
-    const {isAuth, setIsAuth} = useContext(AuthContext);
-
+    const [username, setUsername] = useState("");
+    const {login} = useContext(AuthContext);
     const navigate = useNavigate();
 
-    const handleClick = (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault();
-        navigate('/skins');
-        setIsAuth(true);
-        localStorage.setItem("auth", "true");
+
+        if(username.trim()){
+            login(username);
+            navigate('/skins');
+        }
     };
 
     return (
-        <form action="">
-            <h1 className= "form-title">Авторизация</h1>
+        <form onSubmit={handleSubmit}> {/* Добавлен onSubmit */}
+            <h1 className="form-title">Авторизация</h1>
             <MyInput
+                type = "text"
+                value={username}
+                onChange={(e) => setUsername(e.target.value)}
+                placeholder="Введите никнейм"
             />
-            <MyInput/>
-            <button onClick={handleClick} className= "form-button">Войти</button>
+            <MyInput
+                placeholder="Введите пароль"
+            />
+            <button type="submit" className="form-button">Войти</button> {/* Добавлен type="submit" */}
         </form>
     );
 };

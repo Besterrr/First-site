@@ -1,4 +1,4 @@
-import React, {useContext, useMemo, useState} from 'react';
+import React, {useMemo, useState} from 'react';
 import { skinsData } from "../data.json";
 import './Home.css';
 import SkinsList from "../components/SkinsList.jsx";

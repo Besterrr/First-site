@@ -2,7 +2,7 @@ import React, {useContext} from 'react';
 import Navigation from "../components/Navigation.jsx";
 import Footer from "../components/Footer.jsx";
 import {Navigate, Outlet} from "react-router-dom";
-import {AuthContext} from "../context/index.js";
+import {AuthContext} from "../context/AuthContext.jsx";
 
 
 
