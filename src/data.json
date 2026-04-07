@@ -199,6 +199,406 @@
       "wear": "Factory New",
       "inStock": true,
       "imageUrl": "/fiveSeven.webp"
+    },
+    {
+      "id": 21,
+      "sellerName": "WeaponMaster",
+      "itemName": "AK-47 | Redline",
+      "collection": "Alpha Collection",
+      "price": 15600,
+      "wear": "Minimal Wear",
+      "inStock": true,
+      "imageUrl": "/ak47.webp"
+    },
+    {
+      "id": 22,
+      "sellerName": "CS2_King",
+      "itemName": "AWP | Dragon Lore",
+      "collection": "Alpha Collection",
+      "price": 125000,
+      "wear": "Factory New",
+      "inStock": true,
+      "imageUrl": "/awp.webp"
+    },
+    {
+      "id": 23,
+      "sellerName": "FastTrade",
+      "itemName": "M4A1-S | Hyper Beast",
+      "collection": "Gamma Collection",
+      "price": 22400,
+      "wear": "Minimal Wear",
+      "inStock": true,
+      "imageUrl": "/m4a1s.webp"
+    },
+    {
+      "id": 24,
+      "sellerName": "SkinLover",
+      "itemName": "USP-S | Kill Confirmed",
+      "collection": "Gamma Collection",
+      "price": 14300,
+      "wear": "Field-Tested",
+      "inStock": true,
+      "imageUrl": "/usp.webp"
+    },
+    {
+      "id": 25,
+      "sellerName": "ProTrader",
+      "itemName": "Desert Eagle | Blaze",
+      "collection": "Alpha Collection",
+      "price": 18700,
+      "wear": "Factory New",
+      "inStock": false,
+      "imageUrl": "/deagle.webp"
+    },
+    {
+      "id": 26,
+      "sellerName": "SkinShop",
+      "itemName": "Glock-18 | Water Elemental",
+      "collection": "Spectrum Collection",
+      "price": 5400,
+      "wear": "Minimal Wear",
+      "inStock": true,
+      "imageUrl": "/glock.webp"
+    },
+    {
+      "id": 27,
+      "sellerName": "CS2_Elite",
+      "itemName": "AWP | Asiimov",
+      "collection": "Alpha Collection",
+      "price": 43700,
+      "wear": "Field-Tested",
+      "inStock": true,
+      "imageUrl": "/awp.webp"
+    },
+    {
+      "id": 28,
+      "sellerName": "TradeFast",
+      "itemName": "M4A4 | Howl",
+      "collection": "Alpha Collection",
+      "price": 187500,
+      "wear": "Minimal Wear",
+      "inStock": true,
+      "imageUrl": "/m4a4.webp"
+    },
+    {
+      "id": 29,
+      "sellerName": "SkinTrader",
+      "itemName": "AK-47 | Fire Serpent",
+      "collection": "Alpha Collection",
+      "price": 63400,
+      "wear": "Field-Tested",
+      "inStock": true,
+      "imageUrl": "/ak47.webp"
+    },
+    {
+      "id": 30,
+      "sellerName": "CS2_Master",
+      "itemName": "USP-S | Orion",
+      "collection": "Gamma Collection",
+      "price": 8700,
+      "wear": "Factory New",
+      "inStock": true,
+      "imageUrl": "/usp.webp"
+    },
+    {
+      "id": 31,
+      "sellerName": "WeaponDealer",
+      "itemName": "SSG 08 | Blood in the Water",
+      "collection": "Alpha Collection",
+      "price": 11200,
+      "wear": "Minimal Wear",
+      "inStock": true,
+      "imageUrl": "/ssg.webp"
+    },
+    {
+      "id": 32,
+      "sellerName": "SkinKing",
+      "itemName": "P250 | Nuclear Threat",
+      "collection": "Alpha Collection",
+      "price": 18900,
+      "wear": "Factory New",
+      "inStock": true,
+      "imageUrl": "/p250.webp"
+    },
+    {
+      "id": 33,
+      "sellerName": "CS2_Pro",
+      "itemName": "AWP | Medusa",
+      "collection": "Alpha Collection",
+      "price": 98700,
+      "wear": "Field-Tested",
+      "inStock": false,
+      "imageUrl": "/awp.webp"
+    },
+    {
+      "id": 34,
+      "sellerName": "TradeKing",
+      "itemName": "M4A1-S | Chantico's Fire",
+      "collection": "Gamma Collection",
+      "price": 17800,
+      "wear": "Minimal Wear",
+      "inStock": true,
+      "imageUrl": "/m4a1s.webp"
+    },
+    {
+      "id": 35,
+      "sellerName": "SkinVendor",
+      "itemName": "Desert Eagle | Kumicho Dragon",
+      "collection": "Spectrum Collection",
+      "price": 6700,
+      "wear": "Field-Tested",
+      "inStock": true,
+      "imageUrl": "/deagle.webp"
+    },
+    {
+      "id": 36,
+      "sellerName": "CS2_Guru",
+      "itemName": "AK-47 | Vulcan",
+      "collection": "Alpha Collection",
+      "price": 27600,
+      "wear": "Minimal Wear",
+      "inStock": true,
+      "imageUrl": "/ak47.webp"
+    },
+    {
+      "id": 37,
+      "sellerName": "FastSkin",
+      "itemName": "USP-S | Neo-Noir",
+      "collection": "Gamma Collection",
+      "price": 9800,
+      "wear": "Factory New",
+      "inStock": true,
+      "imageUrl": "/usp.webp"
+    },
+    {
+      "id": 38,
+      "sellerName": "ProSkin",
+      "itemName": "M4A4 | Dragon King",
+      "collection": "Spectrum Collection",
+      "price": 12400,
+      "wear": "Minimal Wear",
+      "inStock": true,
+      "imageUrl": "/m4a4.webp"
+    },
+    {
+      "id": 39,
+      "sellerName": "SkinBoss",
+      "itemName": "AWP | Lightning Strike",
+      "collection": "Alpha Collection",
+      "price": 38700,
+      "wear": "Factory New",
+      "inStock": true,
+      "imageUrl": "/awp.webp"
+    },
+    {
+      "id": 40,
+      "sellerName": "CS2_Top",
+      "itemName": "Glock-18 | Fade",
+      "collection": "Alpha Collection",
+      "price": 34500,
+      "wear": "Factory New",
+      "inStock": true,
+      "imageUrl": "/glock.webp"
+    },
+    {
+      "id": 41,
+      "sellerName": "TradeMaster",
+      "itemName": "AK-47 | Bloodsport",
+      "collection": "Gamma Collection",
+      "price": 18300,
+      "wear": "Minimal Wear",
+      "inStock": true,
+      "imageUrl": "/ak47.webp"
+    },
+    {
+      "id": 42,
+      "sellerName": "SkinExpert",
+      "itemName": "M4A1-S | Golden Coil",
+      "collection": "Alpha Collection",
+      "price": 15600,
+      "wear": "Field-Tested",
+      "inStock": true,
+      "imageUrl": "/m4a1s.webp"
+    },
+    {
+      "id": 43,
+      "sellerName": "CS2_ProTrader",
+      "itemName": "Desert Eagle | Cobalt Disruption",
+      "collection": "Spectrum Collection",
+      "price": 7200,
+      "wear": "Factory New",
+      "inStock": true,
+      "imageUrl": "/deagle.webp"
+    },
+    {
+      "id": 44,
+      "sellerName": "WeaponExpert",
+      "itemName": "SSG 08 | Death's Head",
+      "collection": "Gamma Collection",
+      "price": 9300,
+      "wear": "Minimal Wear",
+      "inStock": true,
+      "imageUrl": "/ssg.webp"
+    },
+    {
+      "id": 45,
+      "sellerName": "SkinWorld",
+      "itemName": "P250 | Mehndi",
+      "collection": "Alpha Collection",
+      "price": 8900,
+      "wear": "Factory New",
+      "inStock": true,
+      "imageUrl": "/p250.webp"
+    },
+    {
+      "id": 46,
+      "sellerName": "CS2_Boss",
+      "itemName": "AWP | Containment Breach",
+      "collection": "Spectrum Collection",
+      "price": 45200,
+      "wear": "Minimal Wear",
+      "inStock": true,
+      "imageUrl": "/awp.webp"
+    },
+    {
+      "id": 47,
+      "sellerName": "TradePro",
+      "itemName": "M4A4 | Evil Daimyo",
+      "collection": "Gamma Collection",
+      "price": 6700,
+      "wear": "Factory New",
+      "inStock": true,
+      "imageUrl": "/m4a4.webp"
+    },
+    {
+      "id": 48,
+      "sellerName": "SkinGuru",
+      "itemName": "USP-S | Cortex",
+      "collection": "Spectrum Collection",
+      "price": 11400,
+      "wear": "Minimal Wear",
+      "inStock": true,
+      "imageUrl": "/usp.webp"
+    },
+    {
+      "id": 49,
+      "sellerName": "CS2_Trade",
+      "itemName": "AK-47 | Frontside Misty",
+      "collection": "Gamma Collection",
+      "price": 13700,
+      "wear": "Field-Tested",
+      "inStock": true,
+      "imageUrl": "/ak47.webp"
+    },
+    {
+      "id": 50,
+      "sellerName": "FastDealer",
+      "itemName": "Glock-18 | Moonrise",
+      "collection": "Spectrum Collection",
+      "price": 4900,
+      "wear": "Minimal Wear",
+      "inStock": true,
+      "imageUrl": "/glock.webp"
+    },
+    {
+      "id": 51,
+      "sellerName": "SkinLegend",
+      "itemName": "M4A1-S | Decimator",
+      "collection": "Gamma Collection",
+      "price": 20900,
+      "wear": "Minimal Wear",
+      "inStock": true,
+      "imageUrl": "/m4a1s.webp"
+    },
+    {
+      "id": 52,
+      "sellerName": "CS2_Seller",
+      "itemName": "Desert Eagle | Corinthian",
+      "collection": "Alpha Collection",
+      "price": 8400,
+      "wear": "Factory New",
+      "inStock": true,
+      "imageUrl": "/deagle.webp"
+    },
+    {
+      "id": 53,
+      "sellerName": "ProDealer",
+      "itemName": "AWP | Fever Dream",
+      "collection": "Spectrum Collection",
+      "price": 28900,
+      "wear": "Minimal Wear",
+      "inStock": true,
+      "imageUrl": "/awp.webp"
+    },
+    {
+      "id": 54,
+      "sellerName": "SkinMaster",
+      "itemName": "USP-S | Blueprint",
+      "collection": "Alpha Collection",
+      "price": 7600,
+      "wear": "Field-Tested",
+      "inStock": true,
+      "imageUrl": "/usp.webp"
+    },
+    {
+      "id": 55,
+      "sellerName": "CS2_Dealer",
+      "itemName": "M4A4 | Buzz Kill",
+      "collection": "Gamma Collection",
+      "price": 11300,
+      "wear": "Minimal Wear",
+      "inStock": true,
+      "imageUrl": "/m4a4.webp"
+    },
+    {
+      "id": 56,
+      "sellerName": "TradeElite",
+      "itemName": "AK-47 | Point Disarray",
+      "collection": "Spectrum Collection",
+      "price": 14800,
+      "wear": "Factory New",
+      "inStock": true,
+      "imageUrl": "/ak47.webp"
+    },
+    {
+      "id": 57,
+      "sellerName": "SkinHunter",
+      "itemName": "SSG 08 | Abyss",
+      "collection": "Alpha Collection",
+      "price": 5600,
+      "wear": "Factory New",
+      "inStock": true,
+      "imageUrl": "/ssg.webp"
+    },
+    {
+      "id": 58,
+      "sellerName": "CS2_King",
+      "itemName": "P250 | Cartel",
+      "collection": "Alpha Collection",
+      "price": 11200,
+      "wear": "Minimal Wear",
+      "inStock": true,
+      "imageUrl": "/p250.webp"
+    },
+    {
+      "id": 59,
+      "sellerName": "WeaponTrader",
+      "itemName": "M4A1-S | Nightmare",
+      "collection": "Spectrum Collection",
+      "price": 16700,
+      "wear": "Minimal Wear",
+      "inStock": true,
+      "imageUrl": "/m4a1s.webp"
+    },
+    {
+      "id": 60,
+      "sellerName": "SkinPro",
+      "itemName": "AWP | Mortis",
+      "collection": "Gamma Collection",
+      "price": 14300,
+      "wear": "Field-Tested",
+      "inStock": true,
+      "imageUrl": "/awp.webp"
     }
   ]
 }

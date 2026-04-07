@@ -7,9 +7,8 @@ const Home = () => {
     const [filter, setFilter] = useState('all');
     const [searchQuery, setSearchQuery] = useState('');
     const [page, setPage] = useState(1);
-    const [totalCount, setTotalCount] = useState(20);
-
-    const limit = 4;
+    const [totalCount] = useState(skinsData.length);
+    const limit = 9;
     const totalPages = Math.ceil(totalCount / limit);
 
     const pages = useMemo(() => {
@@ -20,6 +19,24 @@ const Home = () => {
         return pageArray;
     }, [totalPages])
 
+    const handlePageChange = (page) => {
+        setPage(page);
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+
+    const handleFilterChange = (newFilter) => {
+        setFilter(newFilter);
+        setPage(1);
+    }
+
+    const handleSearch = (query) => {
+        setSearchQuery(query);
+        setPage(1);
+    }
+
     const displayedSkins = useMemo(() => {
         let result = filter === 'all'
             ? skinsData
@@ -29,8 +46,13 @@ const Home = () => {
             result = result.filter(skin => skin.itemName.toLowerCase().includes(searchQuery.toLowerCase()));
         }
 
+        const startIndex = (page - 1) * limit;
+        const endIndex = startIndex + limit;
+        result = result.slice(startIndex, endIndex);
+
         return result
-    }, [filter, searchQuery, skinsData]);
+    }, [filter, searchQuery, page]);
+
 
     const clearSearch = () => {
         setSearchQuery('');
@@ -41,13 +63,13 @@ const Home = () => {
             <div className="skins-filters">
                 <button
                     className={`filter-btn ${filter === 'all' ? 'active' : ''}`}
-                    onClick={() => setFilter("all")}
+                    onClick={() => handleFilterChange("all")}
                 >
                     Все скины
                 </button>
                 <button
                     className={`filter-btn ${filter === 'inStock' ? 'active' : ''}`}
-                    onClick={() => setFilter("inStock")}
+                    onClick={() => handleFilterChange("inStock")}
                 >
                     В наличии
                 </button>
@@ -61,7 +83,7 @@ const Home = () => {
                         className="search-input"
                         placeholder="Поиск по названию скина..."
                         value={searchQuery}
-                        onChange={(e) => setSearchQuery(e.target.value)}
+                        onChange={(e) => handleSearch(e.target.value)}
                     />
                     {searchQuery && (
                         <button className="clear-search" onClick={clearSearch}>
@@ -77,7 +99,7 @@ const Home = () => {
                 <div className="pagination">
                     {pages.map(p =>
                         <button
-                            onClick={() => setPage(p)}
+                            onClick={() => handlePageChange(p)}
                             key={p}
                             className={page === p ? "pagination-btn pagination-btn__current" : "pagination-btn"}
                         >

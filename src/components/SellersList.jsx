@@ -12,6 +12,7 @@ const SellersList = ({displayedSellers}) => {
                             <p className="seller-total-sells">🛒{seller.totalSales} продаж</p>
                             <p className="seller-joined-date">📅{seller.joinedDate}</p>
                             <div className="seller-country">
+                                <img src={seller.countryUrl} alt={seller.country}/>
                                 <p>{seller.country}</p>
                             </div>
                         </div>

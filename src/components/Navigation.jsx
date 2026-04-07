@@ -5,7 +5,7 @@ import UserMenu from "./UserMenu.jsx";
 
 const Navigation = () => {
 
-    const {isAuth, user, logout} = useContext(AuthContext);
+    const {isAuth, user} = useContext(AuthContext);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const toggleMenu = () => {

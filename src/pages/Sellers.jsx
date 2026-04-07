@@ -7,10 +7,23 @@ import SellersList from "../components/SellersList.jsx";
 const Sellers = () => {
     const [searchQuery, setSearchQuery] = useState('');
     const [page, setPage] = useState(1);
-    const [totalCount, setTotalCount] = useState(20);
+    const [totalCount] = useState(sellers.length);
 
-    const limit = 4;
+    const limit = 8;
     const totalPages = Math.ceil(totalCount / limit);
+
+    const handlePageChange = (page) => {
+        setPage(page);
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+
+    const handleSearchChange = (query) => {
+        setSearchQuery(query);
+        setPage(1);
+    }
 
     const pages = useMemo(() => {
         let pageArray = [];
@@ -23,15 +36,19 @@ const Sellers = () => {
     const displayedSellers = useMemo(() => {
         let result = [...sellers];
 
-        // Фильтруем по поисковому запросу
         if (searchQuery) {
             result = result.filter(seller =>
                 seller.name.toLowerCase().includes(searchQuery.toLowerCase())
             );
         }
 
+        const startIndex = (page - 1) * limit;
+        const endIndex = startIndex + limit;
+
+        result = result.slice(startIndex, endIndex);
+
         return result;
-    }, [searchQuery, sellers]);
+    }, [searchQuery, sellers, page]);
 
 
     const clearSearch = () => {
@@ -51,7 +68,7 @@ const Sellers = () => {
                                 className="search-input"
                                 placeholder="Поиск по имени продавца"
                                 value={searchQuery}
-                                onChange={(e) => setSearchQuery(e.target.value)}
+                                onChange={(e) => handleSearchChange(e.target.value)}
                             />
                             {searchQuery && (
                                 <button className="clear-search" onClick={clearSearch}>
@@ -75,7 +92,7 @@ const Sellers = () => {
                 <div className="pagination">
                     {pages.map(p =>
                         <button
-                            onClick={() => setPage(p)}
+                            onClick={() => handlePageChange(p)}
                             key={p}
                             className={page === p ? "pagination-btn pagination-btn__current" : "pagination-btn"}
                         >
@@ -84,6 +101,7 @@ const Sellers = () => {
                     )}
                 </div>
             )}
+            <hr/>
         </div>
     );
 };

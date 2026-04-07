@@ -83,11 +83,18 @@
 }
 
 .seller-country{
+    display: flex;
     border-radius: 20px;
     padding: 4px 12px;
     font-size: 13px;
     color: var(--text-gray);
 }
+
+.seller-country img{
+    width: 20px;
+    background: var(--bg-dark);
+}
+
 
 .seller-card-skins{
     text-align: end;

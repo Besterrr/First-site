@@ -1,0 +1,101 @@
+.main-content{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.about-title{
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 16px;
+
+}
+
+.about-block{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.about-block img{
+    border-radius: var(--radius-image);
+    flex: 1;
+    max-width: 35%;
+}
+
+.about-block p{
+    overflow-wrap: break-word;
+    max-width: 100%;
+    word-break: break-all;
+    color: var(--text-gray);
+    flex: 1;
+    font-size: 20px;
+}
+
+.advantages-block{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.card{
+    opacity: 0.7;
+    border-radius: 16px;
+    padding: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card:hover{
+    border: 1px solid var(--text-orange);
+    margin-left: 2px;
+    opacity: 1;
+}
+
+.card h1{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card p{
+    margin-top: 10px;
+    color: var(--text-gray);
+    font-size: 20px;
+}
+
+.command-block{
+    margin: 60px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.command-card{
+    width: 75%;
+    justify-self: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+}
+
+.command-card img{
+    width: 100%;
+}
+
+.name{
+    text-align: center;
+    font-weight: bold;
+    color: rgba(224, 255, 255);
+    font-size: 18px;
+}
+
+.role{
+    margin-top: 10px;
+    text-align: center;
+    color: rgba(224, 255, 255, 0.8);
+    font-size: 16px;
+}

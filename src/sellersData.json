@@ -7,6 +7,7 @@
       "totalSales": 1250,
       "joinedDate": "2023-01-15",
       "country": "Russia",
+      "countryUrl": "/ru.png",
       "comment": "⭐ Опытный коллекционер с 5-летним стажем. Специализируется на редких экземплярах Printstream коллекции. Все скины проверены на подлинность.",
       "items": [
         {
@@ -16,7 +17,7 @@
           "price": 12500,
           "wear": "Factory New",
           "inStock": true,
-          "imageUrl": "/usp.webp"
+          "imageUrl": "/usp.png"
         },
         {
           "id": 102,
@@ -25,7 +26,7 @@
           "price": 18900,
           "wear": "Factory New",
           "inStock": true,
-          "imageUrl": "/m4a1s.webp"
+          "imageUrl": "/m4a1s.png"
         }
       ]
     },
@@ -36,6 +37,7 @@
       "totalSales": 2350,
       "joinedDate": "2022-08-20",
       "country": "USA",
+      "countryUrl": "/usa.png",
       "comment": "🚀 Топовый трейдер CS2. Мгновенные сделки и честные цены. На рынке с 2022 года, более 2000 успешных сделок.",
       "items": [
         {
@@ -45,7 +47,7 @@
           "price": 11800,
           "wear": "Minimal Wear",
           "inStock": true,
-          "imageUrl": "/usp.webp"
+          "imageUrl": "/usp.png"
         },
         {
           "id": 202,
@@ -54,7 +56,7 @@
           "price": 29800,
           "wear": "Minimal Wear",
           "inStock": true,
-          "imageUrl": "/awp.webp"
+          "imageUrl": "/awp.png"
         },
         {
           "id": 203,
@@ -63,7 +65,7 @@
           "price": 3800,
           "wear": "Factory New",
           "inStock": true,
-          "imageUrl": "/fiveSeven.webp"
+          "imageUrl": "/fiveSeven.png"
         },
         {
           "id": 204,
@@ -72,7 +74,7 @@
           "price": 18900,
           "wear": "Factory New",
           "inStock": true,
-          "imageUrl": "/m4a1s.webp"
+          "imageUrl": "/m4a1s.png"
         }
       ]
     },
@@ -83,6 +85,7 @@
       "totalSales": 890,
       "joinedDate": "2023-05-10",
       "country": "Germany",
+      "countryUrl": "/germany.png",
       "comment": "🔍 Охотник за редкими скинами. Предлагаю уникальные экземпляры по лучшим ценам. Каждый скин проходит проверку качества.",
       "items": [
         {
@@ -92,7 +95,7 @@
           "price": 10500,
           "wear": "Field-Tested",
           "inStock": true,
-          "imageUrl": "/usp.webp"
+          "imageUrl": "/usp.png"
         },
         {
           "id": 302,
@@ -101,7 +104,7 @@
           "price": 22800,
           "wear": "Minimal Wear",
           "inStock": true,
-          "imageUrl": "/ak47.webp"
+          "imageUrl": "/ak47.png"
         }
       ]
     },
@@ -112,6 +115,7 @@
       "totalSales": 3100,
       "joinedDate": "2021-12-01",
       "country": "Sweden",
+      "countryUrl": "/sweden.png",
       "comment": "🏆 Профессиональный игрок и коллекционер. Все скины из личной коллекции. Гарантия подлинности и лучшие условия.",
       "items": [
         {
@@ -121,7 +125,7 @@
           "price": 18500,
           "wear": "Factory New",
           "inStock": true,
-          "imageUrl": "/m4a1s.webp"
+          "imageUrl": "/m4a1s.png"
         },
         {
           "id": 402,
@@ -130,7 +134,7 @@
           "price": 32500,
           "wear": "Factory New",
           "inStock": true,
-          "imageUrl": "/awp.webp"
+          "imageUrl": "/awp.png"
         },
         {
           "id": 403,
@@ -139,7 +143,7 @@
           "price": 9500,
           "wear": "Factory New",
           "inStock": true,
-          "imageUrl": "/deagle.webp"
+          "imageUrl": "/deagle.png"
         }
       ]
     },
@@ -150,6 +154,7 @@
       "totalSales": 1560,
       "joinedDate": "2023-02-14",
       "country": "Poland",
+      "countryUrl": "/poland.png",
       "comment": "💰 Крупный маркетплейс скинов. Большой ассортимент, быстрая доставка. Возврат средств в течение 14 дней.",
       "items": [
         {
@@ -159,7 +164,7 @@
           "price": 17200,
           "wear": "Minimal Wear",
           "inStock": true,
-          "imageUrl": "/m4a1s.webp"
+          "imageUrl": "/m4a1s.png"
         },
         {
           "id": 502,
@@ -168,7 +173,7 @@
           "price": 4200,
           "wear": "Factory New",
           "inStock": true,
-          "imageUrl": "/p250.webp"
+          "imageUrl": "/p250.png"
         }
       ]
     },
@@ -179,6 +184,7 @@
       "totalSales": 720,
       "joinedDate": "2023-07-19",
       "country": "Ukraine",
+      "countryUrl": "/ukraine.png",
       "comment": "🎯 Надежный дилер CS2. Работаю напрямую с поставщиками. Предлагаю скины по оптовым ценам. Оперативная поддержка 24/7.",
       "items": [
         {
@@ -188,7 +194,7 @@
           "price": 15800,
           "wear": "Field-Tested",
           "inStock": false,
-          "imageUrl": "/m4a1s.webp"
+          "imageUrl": "/m4a1s.png"
         },
         {
           "id": 602,
@@ -197,7 +203,7 @@
           "price": 5900,
           "wear": "Minimal Wear",
           "inStock": false,
-          "imageUrl": "/glock.webp"
+          "imageUrl": "/glock.png"
         }
       ]
     },
@@ -208,6 +214,7 @@
       "totalSales": 980,
       "joinedDate": "2022-11-05",
       "country": "Finland",
+      "countryUrl": "/finland.png",
       "comment": "🎖️ Легенда среди коллекционеров AWP. Только лучшие экземпляры. Каждый скин имеет сертификат подлинности.",
       "items": [
         {
@@ -217,7 +224,7 @@
           "price": 32500,
           "wear": "Factory New",
           "inStock": true,
-          "imageUrl": "/awp.webp"
+          "imageUrl": "/awp.png"
         }
       ]
     },
@@ -228,6 +235,7 @@
       "totalSales": 1870,
       "joinedDate": "2022-06-30",
       "country": "UK",
+      "countryUrl": "/uk.png",
       "comment": "💎 Элитный трейдер с эксклюзивными предложениями. Личные встречи по Лондону. Работаю с 2019 года, более 5000 довольных клиентов.",
       "items": [
         {
@@ -237,7 +245,7 @@
           "price": 29800,
           "wear": "Minimal Wear",
           "inStock": true,
-          "imageUrl": "/awp.webp"
+          "imageUrl": "/awp.png"
         },
         {
           "id": 802,
@@ -246,7 +254,7 @@
           "price": 17800,
           "wear": "Minimal Wear",
           "inStock": true,
-          "imageUrl": "/m4a4.webp"
+          "imageUrl": "/m4a4.png"
         }
       ]
     },
@@ -257,6 +265,7 @@
       "totalSales": 1340,
       "joinedDate": "2023-03-22",
       "country": "Brazil",
+      "countryUrl": "/brazil.png",
       "comment": "👑 Король Deagle! Самая большая коллекция Desert Eagle на платформе. Специальные цены для постоянных клиентов.",
       "items": [
         {
@@ -266,7 +275,7 @@
           "price": 9500,
           "wear": "Factory New",
           "inStock": true,
-          "imageUrl": "/deagle.webp"
+          "imageUrl": "/deagle.png"
         },
         {
           "id": 902,
@@ -275,7 +284,7 @@
           "price": 8700,
           "wear": "Minimal Wear",
           "inStock": true,
-          "imageUrl": "/deagle.webp"
+          "imageUrl": "/deagle.png"
         }
       ]
     },
@@ -286,6 +295,7 @@
       "totalSales": 1120,
       "joinedDate": "2023-04-18",
       "country": "Canada",
+      "countryUrl": "/brazil.png",
       "comment": "🔫 Мастер пистолетных скинов. Полная коллекция пистолетов из разных наборов. Быстрая проверка и безопасная сделка.",
       "items": [
         {
@@ -295,7 +305,7 @@
           "price": 8700,
           "wear": "Minimal Wear",
           "inStock": true,
-          "imageUrl": "/deagle.webp"
+          "imageUrl": "/deagle.png"
         },
         {
           "id": 1002,
@@ -304,7 +314,7 @@
           "price": 6800,
           "wear": "Factory New",
           "inStock": true,
-          "imageUrl": "/glock.webp"
+          "imageUrl": "/glock.png"
         }
       ]
     },
@@ -315,6 +325,7 @@
       "totalSales": 2450,
       "joinedDate": "2022-09-12",
       "country": "Kazakhstan",
+      "countryUrl": "/brazil.png",
       "comment": "🔥 Специалист по AK-47. Самые редкие вариации Wild Lotus. Трейдинг по всему СНГ. Гарантия лучшей цены.",
       "items": [
         {
@@ -324,7 +335,7 @@
           "price": 24500,
           "wear": "Factory New",
           "inStock": true,
-          "imageUrl": "/ak47.webp"
+          "imageUrl": "/ak47.png"
         }
       ]
     },
@@ -335,6 +346,7 @@
       "totalSales": 890,
       "joinedDate": "2023-08-01",
       "country": "Australia",
+      "countryUrl": "/brazil.png",
       "comment": "🎯 Эксперт по винтовкам. Все скины проходят проверку на Float Value. Доставка по всему миру.",
       "items": [
         {
@@ -344,7 +356,7 @@
           "price": 22800,
           "wear": "Minimal Wear",
           "inStock": true,
-          "imageUrl": "/ak47.webp"
+          "imageUrl": "/ak47.png"
         },
         {
           "id": 1202,
@@ -353,7 +365,7 @@
           "price": 8500,
           "wear": "Factory New",
           "inStock": true,
-          "imageUrl": "/ssg.webp"
+          "imageUrl": "/ssg.png"
         }
       ]
     },
@@ -364,6 +376,7 @@
       "totalSales": 560,
       "joinedDate": "2023-09-14",
       "country": "Netherlands",
+      "countryUrl": "/brazil.png",
       "comment": "🔫 Специализация — Glock-18. Большой выбор Gamma-Dopler. Низкие цены, быстрый обмен.",
       "items": [
         {
@@ -373,7 +386,7 @@
           "price": 6800,
           "wear": "Factory New",
           "inStock": true,
-          "imageUrl": "/glock.webp"
+          "imageUrl": "/glock.png"
         }
       ]
     },
@@ -384,6 +397,7 @@
       "totalSales": 3120,
       "joinedDate": "2021-10-05",
       "country": "South Korea",
+      "countryUrl": "/brazil.png",
       "comment": "🏅 Один из старейших коллекционеров на платформе. Полная коллекция Printstream. Эксклюзивные скины из личной коллекции.",
       "items": [
         {
@@ -393,7 +407,7 @@
           "price": 11200,
           "wear": "Minimal Wear",
           "inStock": true,
-          "imageUrl": "/usp.webp"
+          "imageUrl": "/usp.png"
         },
         {
           "id": 1402,
@@ -402,7 +416,7 @@
           "price": 19500,
           "wear": "Factory New",
           "inStock": true,
-          "imageUrl": "/m4a4.webp"
+          "imageUrl": "/m4a4.png"
         }
       ]
     },
@@ -413,6 +427,7 @@
       "totalSales": 1450,
       "joinedDate": "2022-12-20",
       "country": "France",
+      "countryUrl": "/brazil.png",
       "comment": "👔 Крупный продавец с премиум-аккаунтом. Только качественные скины. Работаю с 2020 года.",
       "items": [
         {
@@ -422,7 +437,7 @@
           "price": 19500,
           "wear": "Factory New",
           "inStock": true,
-          "imageUrl": "/m4a4.webp"
+          "imageUrl": "/m4a4.png"
         }
       ]
     },
@@ -433,6 +448,7 @@
       "totalSales": 2780,
       "joinedDate": "2022-07-08",
       "country": "Singapore",
+      "countryUrl": "/brazil.png",
       "comment": "👑 Бог трейдинга! Лучшие цены в регионе. Мгновенный обмен скинов. Более 2000 положительных отзывов.",
       "items": [
         {
@@ -442,7 +458,7 @@
           "price": 17800,
           "wear": "Minimal Wear",
           "inStock": true,
-          "imageUrl": "/m4a4.webp"
+          "imageUrl": "/m4a4.png"
         },
         {
           "id": 1602,
@@ -451,7 +467,7 @@
           "price": 31500,
           "wear": "Minimal Wear",
           "inStock": true,
-          "imageUrl": "/awp.webp"
+          "imageUrl": "/awp.png"
         }
       ]
     },
@@ -462,6 +478,7 @@
       "totalSales": 890,
       "joinedDate": "2023-06-25",
       "country": "Switzerland",
+      "countryUrl": "/brazil.png",
       "comment": "🎯 Профессиональный снайпер в CS2. Предлагаю скины для AWP и SSG. Все скины с низким Float Value.",
       "items": [
         {
@@ -471,7 +488,7 @@
           "price": 8500,
           "wear": "Factory New",
           "inStock": true,
-          "imageUrl": "/ssg.webp"
+          "imageUrl": "/ssg.png"
         }
       ]
     },
@@ -482,6 +499,7 @@
       "totalSales": 1950,
       "joinedDate": "2022-04-15",
       "country": "China",
+      "countryUrl": "/brazil.png",
       "comment": "📈 Инвестиционный портфель скинов. Рекомендую для долгосрочных вложений. Аналитика рынка и прогнозы роста цен.",
       "items": [
         {
@@ -491,7 +509,7 @@
           "price": 11200,
           "wear": "Minimal Wear",
           "inStock": true,
-          "imageUrl": "/usp.webp"
+          "imageUrl": "/usp.png"
         },
         {
           "id": 1802,
@@ -500,7 +518,967 @@
           "price": 23500,
           "wear": "Minimal Wear",
           "inStock": true,
-          "imageUrl": "/ak47.webp"
+          "imageUrl": "/ak47.png"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "WeaponMaster",
+      "rating": 4.7,
+      "totalSales": 980,
+      "joinedDate": "2023-10-10",
+      "country": "Russia",
+      "countryUrl": "/ru.png",
+      "comment": "⚡ Мастер оружия. Большой выбор скинов для любого бюджета. Быстрая доставка и честные цены.",
+      "items": [
+        {
+          "id": 1901,
+          "itemName": "AK-47 | Redline",
+          "collection": "Alpha Collection",
+          "price": 15600,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/ak47.png"
+        },
+        {
+          "id": 1902,
+          "itemName": "USP-S | Orion",
+          "collection": "Gamma Collection",
+          "price": 8700,
+          "wear": "Factory New",
+          "inStock": true,
+          "imageUrl": "/usp.png"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "CS2_King",
+      "rating": 5.0,
+      "totalSales": 4200,
+      "joinedDate": "2021-05-15",
+      "country": "USA",
+      "countryUrl": "/usa.png",
+      "comment": "👑 Лучший трейдер на платформе. Эксклюзивные скины. Только проверенные сделки.",
+      "items": [
+        {
+          "id": 2001,
+          "itemName": "AWP | Dragon Lore",
+          "collection": "Alpha Collection",
+          "price": 125000,
+          "wear": "Factory New",
+          "inStock": true,
+          "imageUrl": "/awp.png"
+        },
+        {
+          "id": 2002,
+          "itemName": "M4A4 | Howl",
+          "collection": "Alpha Collection",
+          "price": 187500,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/m4a4.png"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "FastTrade",
+      "rating": 4.5,
+      "totalSales": 670,
+      "joinedDate": "2024-01-20",
+      "country": "Germany",
+      "countryUrl": "/germany.png",
+      "comment": "🚀 Мгновенные сделки. Самые низкие комиссии. Работаю 24/7.",
+      "items": [
+        {
+          "id": 2101,
+          "itemName": "M4A1-S | Hyper Beast",
+          "collection": "Gamma Collection",
+          "price": 22400,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/m4a1s.png"
+        },
+        {
+          "id": 2102,
+          "itemName": "Glock-18 | Water Elemental",
+          "collection": "Spectrum Collection",
+          "price": 5400,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/glock.png"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "SkinLover",
+      "rating": 4.8,
+      "totalSales": 1560,
+      "joinedDate": "2023-03-18",
+      "country": "Poland",
+      "countryUrl": "/poland.png",
+      "comment": "❤️ Люблю скины и клиентов. Индивидуальный подход к каждому покупателю.",
+      "items": [
+        {
+          "id": 2201,
+          "itemName": "USP-S | Kill Confirmed",
+          "collection": "Gamma Collection",
+          "price": 14300,
+          "wear": "Field-Tested",
+          "inStock": true,
+          "imageUrl": "/usp.png"
+        },
+        {
+          "id": 2202,
+          "itemName": "Desert Eagle | Blaze",
+          "collection": "Alpha Collection",
+          "price": 18700,
+          "wear": "Factory New",
+          "inStock": false,
+          "imageUrl": "/deagle.png"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "ProTrader",
+      "rating": 4.7,
+      "totalSales": 2340,
+      "joinedDate": "2022-02-10",
+      "country": "Sweden",
+      "countryUrl": "/sweden.png",
+      "comment": "💼 Профессиональный трейдер. Более 3 лет опыта. Лучшие цены на редкие скины.",
+      "items": [
+        {
+          "id": 2301,
+          "itemName": "AK-47 | Fire Serpent",
+          "collection": "Alpha Collection",
+          "price": 63400,
+          "wear": "Field-Tested",
+          "inStock": true,
+          "imageUrl": "/ak47.png"
+        },
+        {
+          "id": 2302,
+          "itemName": "AWP | Asiimov",
+          "collection": "Alpha Collection",
+          "price": 43700,
+          "wear": "Field-Tested",
+          "inStock": true,
+          "imageUrl": "/awp.png"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "SkinShop",
+      "rating": 4.4,
+      "totalSales": 890,
+      "joinedDate": "2023-11-05",
+      "country": "Ukraine",
+      "countryUrl": "/ukraine.png",
+      "comment": "🛒 Магазин скинов с гарантией. Возврат средств в течение 7 дней.",
+      "items": [
+        {
+          "id": 2401,
+          "itemName": "SSG 08 | Blood in the Water",
+          "collection": "Alpha Collection",
+          "price": 11200,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/ssg.png"
+        },
+        {
+          "id": 2402,
+          "itemName": "P250 | Nuclear Threat",
+          "collection": "Alpha Collection",
+          "price": 18900,
+          "wear": "Factory New",
+          "inStock": true,
+          "imageUrl": "/p250.png"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "CS2_Elite",
+      "rating": 4.9,
+      "totalSales": 2890,
+      "joinedDate": "2022-10-01",
+      "country": "Finland",
+      "countryUrl": "/finland.png",
+      "comment": "🏅 Элитный продавец. Только топовые скины. Быстрая проверка и сделка.",
+      "items": [
+        {
+          "id": 2501,
+          "itemName": "AWP | Medusa",
+          "collection": "Alpha Collection",
+          "price": 98700,
+          "wear": "Field-Tested",
+          "inStock": false,
+          "imageUrl": "/awp.png"
+        },
+        {
+          "id": 2502,
+          "itemName": "M4A1-S | Chantico's Fire",
+          "collection": "Gamma Collection",
+          "price": 17800,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/m4a1s.png"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "TradeFast",
+      "rating": 4.6,
+      "totalSales": 1450,
+      "joinedDate": "2023-06-12",
+      "country": "UK",
+      "countryUrl": "/uk.png",
+      "comment": "⚡ Молниеносные сделки. Большой выбор популярных скинов.",
+      "items": [
+        {
+          "id": 2601,
+          "itemName": "Desert Eagle | Kumicho Dragon",
+          "collection": "Spectrum Collection",
+          "price": 6700,
+          "wear": "Field-Tested",
+          "inStock": true,
+          "imageUrl": "/deagle.png"
+        },
+        {
+          "id": 2602,
+          "itemName": "AK-47 | Vulcan",
+          "collection": "Alpha Collection",
+          "price": 27600,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/ak47.png"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "SkinTrader",
+      "rating": 4.7,
+      "totalSales": 1780,
+      "joinedDate": "2023-01-25",
+      "country": "Brazil",
+      "countryUrl": "/brazil.png",
+      "comment": "🎯 Профессиональный трейдер. Работаю напрямую. Честные цены.",
+      "items": [
+        {
+          "id": 2701,
+          "itemName": "USP-S | Neo-Noir",
+          "collection": "Gamma Collection",
+          "price": 9800,
+          "wear": "Factory New",
+          "inStock": true,
+          "imageUrl": "/usp.png"
+        },
+        {
+          "id": 2702,
+          "itemName": "M4A4 | Dragon King",
+          "collection": "Spectrum Collection",
+          "price": 12400,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/m4a4.png"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "CS2_Master",
+      "rating": 4.9,
+      "totalSales": 3100,
+      "joinedDate": "2021-08-19",
+      "country": "Canada",
+      "countryUrl": "/canada.png",
+      "comment": "🎮 Мастер CS2. Огромный опыт в трейдинге. Лучшие предложения.",
+      "items": [
+        {
+          "id": 2801,
+          "itemName": "AWP | Lightning Strike",
+          "collection": "Alpha Collection",
+          "price": 38700,
+          "wear": "Factory New",
+          "inStock": true,
+          "imageUrl": "/awp.png"
+        },
+        {
+          "id": 2802,
+          "itemName": "Glock-18 | Fade",
+          "collection": "Alpha Collection",
+          "price": 34500,
+          "wear": "Factory New",
+          "inStock": true,
+          "imageUrl": "/glock.png"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "WeaponDealer",
+      "rating": 4.5,
+      "totalSales": 890,
+      "joinedDate": "2023-09-15",
+      "country": "Kazakhstan",
+      "countryUrl": "/kazakhstan.png",
+      "comment": "🔫 Оружейный дилер. Все виды скинов. Работаю с оптовыми заказами.",
+      "items": [
+        {
+          "id": 2901,
+          "itemName": "AK-47 | Bloodsport",
+          "collection": "Gamma Collection",
+          "price": 18300,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/ak47.png"
+        },
+        {
+          "id": 2902,
+          "itemName": "M4A1-S | Golden Coil",
+          "collection": "Alpha Collection",
+          "price": 15600,
+          "wear": "Field-Tested",
+          "inStock": true,
+          "imageUrl": "/m4a1s.png"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "SkinKing",
+      "rating": 4.8,
+      "totalSales": 2100,
+      "joinedDate": "2022-12-03",
+      "country": "Australia",
+      "countryUrl": "/australia.png",
+      "comment": "👑 Король скинов. Эксклюзивные коллекции. Индивидуальный подход.",
+      "items": [
+        {
+          "id": 3001,
+          "itemName": "Desert Eagle | Cobalt Disruption",
+          "collection": "Spectrum Collection",
+          "price": 7200,
+          "wear": "Factory New",
+          "inStock": true,
+          "imageUrl": "/deagle.png"
+        },
+        {
+          "id": 3002,
+          "itemName": "SSG 08 | Death's Head",
+          "collection": "Gamma Collection",
+          "price": 9300,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/ssg.png"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "CS2_Pro",
+      "rating": 4.7,
+      "totalSales": 1670,
+      "joinedDate": "2023-04-22",
+      "country": "Netherlands",
+      "countryUrl": "/netherlands.png",
+      "comment": "🏆 Профессиональный игрок. Скины из личной коллекции. Гарантия качества.",
+      "items": [
+        {
+          "id": 3101,
+          "itemName": "P250 | Mehndi",
+          "collection": "Alpha Collection",
+          "price": 8900,
+          "wear": "Factory New",
+          "inStock": true,
+          "imageUrl": "/p250.png"
+        },
+        {
+          "id": 3102,
+          "itemName": "AWP | Containment Breach",
+          "collection": "Spectrum Collection",
+          "price": 45200,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/awp.png"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "TradeKing",
+      "rating": 4.9,
+      "totalSales": 3450,
+      "joinedDate": "2021-11-30",
+      "country": "South Korea",
+      "countryUrl": "/southkorea.png",
+      "comment": "👑 Торговый король. Лучшие цены на платформе. Мгновенный обмен.",
+      "items": [
+        {
+          "id": 3201,
+          "itemName": "M4A4 | Evil Daimyo",
+          "collection": "Gamma Collection",
+          "price": 6700,
+          "wear": "Factory New",
+          "inStock": true,
+          "imageUrl": "/m4a4.png"
+        },
+        {
+          "id": 3202,
+          "itemName": "USP-S | Cortex",
+          "collection": "Spectrum Collection",
+          "price": 11400,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/usp.png"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "SkinVendor",
+      "rating": 4.4,
+      "totalSales": 560,
+      "joinedDate": "2024-02-10",
+      "country": "France",
+      "countryUrl": "/france.png",
+      "comment": "🛍️ Надёжный продавец. Быстрая доставка. Приятные цены.",
+      "items": [
+        {
+          "id": 3301,
+          "itemName": "AK-47 | Frontside Misty",
+          "collection": "Gamma Collection",
+          "price": 13700,
+          "wear": "Field-Tested",
+          "inStock": true,
+          "imageUrl": "/ak47.png"
+        },
+        {
+          "id": 3302,
+          "itemName": "Glock-18 | Moonrise",
+          "collection": "Spectrum Collection",
+          "price": 4900,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/glock.png"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "CS2_Guru",
+      "rating": 4.8,
+      "totalSales": 1980,
+      "joinedDate": "2022-05-20",
+      "country": "Singapore",
+      "countryUrl": "/singapore.png",
+      "comment": "🧘 Эксперт по скинам. Помогу выбрать лучший вариант. Консультации бесплатно.",
+      "items": [
+        {
+          "id": 3401,
+          "itemName": "M4A1-S | Decimator",
+          "collection": "Gamma Collection",
+          "price": 20900,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/m4a1s.png"
+        },
+        {
+          "id": 3402,
+          "itemName": "Desert Eagle | Corinthian",
+          "collection": "Alpha Collection",
+          "price": 8400,
+          "wear": "Factory New",
+          "inStock": true,
+          "imageUrl": "/deagle.png"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "FastSkin",
+      "rating": 4.6,
+      "totalSales": 1230,
+      "joinedDate": "2023-07-08",
+      "country": "Switzerland",
+      "countryUrl": "/switzerland.png",
+      "comment": "⚡ Мгновенная покупка. Автоматическая выдача скинов. 24/7 поддержка.",
+      "items": [
+        {
+          "id": 3501,
+          "itemName": "AWP | Fever Dream",
+          "collection": "Spectrum Collection",
+          "price": 28900,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/awp.png"
+        },
+        {
+          "id": 3502,
+          "itemName": "USP-S | Blueprint",
+          "collection": "Alpha Collection",
+          "price": 7600,
+          "wear": "Field-Tested",
+          "inStock": true,
+          "imageUrl": "/usp.png"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "ProSkin",
+      "rating": 4.7,
+      "totalSales": 1450,
+      "joinedDate": "2023-02-28",
+      "country": "China",
+      "countryUrl": "/china.png",
+      "comment": "🎯 Профессиональные скины. Только лучшие экземпляры. Доставка по всему миру.",
+      "items": [
+        {
+          "id": 3601,
+          "itemName": "M4A4 | Buzz Kill",
+          "collection": "Gamma Collection",
+          "price": 11300,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/m4a4.png"
+        },
+        {
+          "id": 3602,
+          "itemName": "AK-47 | Point Disarray",
+          "collection": "Spectrum Collection",
+          "price": 14800,
+          "wear": "Factory New",
+          "inStock": true,
+          "imageUrl": "/ak47.png"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "CS2_Top",
+      "rating": 4.9,
+      "totalSales": 2870,
+      "joinedDate": "2022-01-15",
+      "country": "Russia",
+      "countryUrl": "/ru.png",
+      "comment": "🔥 Топовый продавец. Самые популярные скины. Гарантия сделки.",
+      "items": [
+        {
+          "id": 3701,
+          "itemName": "SSG 08 | Abyss",
+          "collection": "Alpha Collection",
+          "price": 5600,
+          "wear": "Factory New",
+          "inStock": true,
+          "imageUrl": "/ssg.png"
+        },
+        {
+          "id": 3702,
+          "itemName": "P250 | Cartel",
+          "collection": "Alpha Collection",
+          "price": 11200,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/p250.png"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "TradeMaster",
+      "rating": 4.8,
+      "totalSales": 2340,
+      "joinedDate": "2022-09-03",
+      "country": "USA",
+      "countryUrl": "/usa.png",
+      "comment": "🎩 Мастер трейдинга. Огромный опыт. Лучшие цены на популярные скины.",
+      "items": [
+        {
+          "id": 3801,
+          "itemName": "M4A1-S | Nightmare",
+          "collection": "Spectrum Collection",
+          "price": 16700,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/m4a1s.png"
+        },
+        {
+          "id": 3802,
+          "itemName": "AWP | Mortis",
+          "collection": "Gamma Collection",
+          "price": 14300,
+          "wear": "Field-Tested",
+          "inStock": true,
+          "imageUrl": "/awp.png"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "SkinExpert",
+      "rating": 4.7,
+      "totalSales": 1670,
+      "joinedDate": "2023-05-17",
+      "country": "Germany",
+      "countryUrl": "/germany.png",
+      "comment": "🔍 Эксперт по скинам. Помогу оценить и продать. Бесплатная консультация.",
+      "items": [
+        {
+          "id": 3901,
+          "itemName": "USP-S | Stainless",
+          "collection": "Alpha Collection",
+          "price": 3200,
+          "wear": "Factory New",
+          "inStock": true,
+          "imageUrl": "/usp.png"
+        },
+        {
+          "id": 3902,
+          "itemName": "Glock-18 | Ironwork",
+          "collection": "Gamma Collection",
+          "price": 2800,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/glock.png"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "CS2_ProTrader",
+      "rating": 4.9,
+      "totalSales": 3210,
+      "joinedDate": "2021-12-12",
+      "country": "Poland",
+      "countryUrl": "/poland.png",
+      "comment": "🏅 Профессиональный трейдер. Более 5 лет опыта. Лучшие условия.",
+      "items": [
+        {
+          "id": 4001,
+          "itemName": "AWP | Blackiimov",
+          "collection": "Alpha Collection",
+          "price": 67800,
+          "wear": "Battle-Scarred",
+          "inStock": true,
+          "imageUrl": "/awp.png"
+        },
+        {
+          "id": 4002,
+          "itemName": "M4A4 | Poseidon",
+          "collection": "Alpha Collection",
+          "price": 45600,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/m4a4.png"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "WeaponExpert",
+      "rating": 4.6,
+      "totalSales": 890,
+      "joinedDate": "2023-08-19",
+      "country": "Ukraine",
+      "countryUrl": "/ukraine.png",
+      "comment": "🔫 Эксперт по оружию. Все виды скинов. Быстрый обмен.",
+      "items": [
+        {
+          "id": 4101,
+          "itemName": "AK-47 | Neon Revolution",
+          "collection": "Gamma Collection",
+          "price": 18900,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/ak47.png"
+        },
+        {
+          "id": 4102,
+          "itemName": "Desert Eagle | Oxide Blaze",
+          "collection": "Spectrum Collection",
+          "price": 5400,
+          "wear": "Factory New",
+          "inStock": true,
+          "imageUrl": "/deagle.png"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "SkinWorld",
+      "rating": 4.5,
+      "totalSales": 2340,
+      "joinedDate": "2022-11-27",
+      "country": "UK",
+      "countryUrl": "/uk.png",
+      "comment": "🌍 Мир скинов. Огромный ассортимент. Доставка по всему миру.",
+      "items": [
+        {
+          "id": 4201,
+          "itemName": "SSG 08 | Big Iron",
+          "collection": "Gamma Collection",
+          "price": 8900,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/ssg.png"
+        },
+        {
+          "id": 4202,
+          "itemName": "P250 | Supernova",
+          "collection": "Spectrum Collection",
+          "price": 6700,
+          "wear": "Factory New",
+          "inStock": true,
+          "imageUrl": "/p250.png"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "CS2_Boss",
+      "rating": 4.8,
+      "totalSales": 2780,
+      "joinedDate": "2022-04-05",
+      "country": "Brazil",
+      "countryUrl": "/brazil.png",
+      "comment": "👔 Босс CS2. Только проверенные сделки. Лучшие цены.",
+      "items": [
+        {
+          "id": 4301,
+          "itemName": "M4A1-S | Bright Water",
+          "collection": "Alpha Collection",
+          "price": 8900,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/m4a1s.png"
+        },
+        {
+          "id": 4302,
+          "itemName": "AWP | Sun in Leo",
+          "collection": "Spectrum Collection",
+          "price": 23400,
+          "wear": "Field-Tested",
+          "inStock": true,
+          "imageUrl": "/awp.png"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "TradePro",
+      "rating": 4.7,
+      "totalSales": 1890,
+      "joinedDate": "2023-03-11",
+      "country": "Canada",
+      "countryUrl": "/canada.png",
+      "comment": "💼 Профессиональный трейдер. Работаю с 2020 года. Гарантия сделок.",
+      "items": [
+        {
+          "id": 4401,
+          "itemName": "USP-S | Lead Conduit",
+          "collection": "Gamma Collection",
+          "price": 7800,
+          "wear": "Factory New",
+          "inStock": true,
+          "imageUrl": "/usp.png"
+        },
+        {
+          "id": 4402,
+          "itemName": "Glock-18 | Wraiths",
+          "collection": "Spectrum Collection",
+          "price": 6700,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/glock.png"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "SkinGuru",
+      "rating": 4.9,
+      "totalSales": 3450,
+      "joinedDate": "2021-07-21",
+      "country": "Finland",
+      "countryUrl": "/finland.png",
+      "comment": "🧘 Гуру скинов. Помогу подобрать идеальный вариант. Консультации 24/7.",
+      "items": [
+        {
+          "id": 4501,
+          "itemName": "AK-47 | Fuel Injector",
+          "collection": "Alpha Collection",
+          "price": 27800,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/ak47.png"
+        },
+        {
+          "id": 4502,
+          "itemName": "M4A4 | Desolate Space",
+          "collection": "Gamma Collection",
+          "price": 15600,
+          "wear": "Field-Tested",
+          "inStock": true,
+          "imageUrl": "/m4a4.png"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "CS2_Trade",
+      "rating": 4.6,
+      "totalSales": 1230,
+      "joinedDate": "2023-06-14",
+      "country": "Sweden",
+      "countryUrl": "/sweden.png",
+      "comment": "🔄 Быстрый трейдинг. Низкие комиссии. Работаю 24/7.",
+      "items": [
+        {
+          "id": 4601,
+          "itemName": "AWP | Phobos",
+          "collection": "Spectrum Collection",
+          "price": 8900,
+          "wear": "Factory New",
+          "inStock": true,
+          "imageUrl": "/awp.png"
+        },
+        {
+          "id": 4602,
+          "itemName": "Desert Eagle | Code Red",
+          "collection": "Gamma Collection",
+          "price": 11200,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/deagle.png"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "FastDealer",
+      "rating": 4.5,
+      "totalSales": 780,
+      "joinedDate": "2024-01-05",
+      "country": "Kazakhstan",
+      "countryUrl": "/kazakhstan.png",
+      "comment": "⚡ Быстрые сделки. Моментальная выдача скинов. Низкие цены.",
+      "items": [
+        {
+          "id": 4701,
+          "itemName": "M4A1-S | Cyrex",
+          "collection": "Alpha Collection",
+          "price": 13400,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/m4a1s.png"
+        },
+        {
+          "id": 4702,
+          "itemName": "USP-S | The Traitor",
+          "collection": "Spectrum Collection",
+          "price": 5600,
+          "wear": "Field-Tested",
+          "inStock": true,
+          "imageUrl": "/usp.png"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "SkinLegend",
+      "rating": 4.8,
+      "totalSales": 2560,
+      "joinedDate": "2022-02-18",
+      "country": "Australia",
+      "countryUrl": "/australia.png",
+      "comment": "🏆 Легендарный коллекционер. Редкие скины. Эксклюзивные предложения.",
+      "items": [
+        {
+          "id": 4801,
+          "itemName": "AWP | Oni Taiji",
+          "collection": "Gamma Collection",
+          "price": 23400,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/awp.png"
+        },
+        {
+          "id": 4802,
+          "itemName": "AK-47 | Wasteland Rebel",
+          "collection": "Alpha Collection",
+          "price": 16700,
+          "wear": "Field-Tested",
+          "inStock": true,
+          "imageUrl": "/ak47.png"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "CS2_Seller",
+      "rating": 4.6,
+      "totalSales": 1450,
+      "joinedDate": "2023-04-30",
+      "country": "Netherlands",
+      "countryUrl": "/netherlands.png",
+      "comment": "💰 Надёжный продавец. Большой выбор скинов. Приятные цены.",
+      "items": [
+        {
+          "id": 4901,
+          "itemName": "M4A4 | Hellfire",
+          "collection": "Gamma Collection",
+          "price": 18900,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/m4a4.png"
+        },
+        {
+          "id": 4902,
+          "itemName": "Glock-18 | Weasel",
+          "collection": "Spectrum Collection",
+          "price": 5600,
+          "wear": "Factory New",
+          "inStock": true,
+          "imageUrl": "/glock.png"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "ProDealer",
+      "rating": 4.7,
+      "totalSales": 1980,
+      "joinedDate": "2022-10-22",
+      "country": "South Korea",
+      "countryUrl": "/southkorea.png",
+      "comment": "🎯 Профессиональный дилер. Гарантия качества. Быстрая доставка.",
+      "items": [
+        {
+          "id": 5001,
+          "itemName": "AWP | Redline",
+          "collection": "Alpha Collection",
+          "price": 18900,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/awp.png"
+        },
+        {
+          "id": 5002,
+          "itemName": "USP-S | Business Class",
+          "collection": "Spectrum Collection",
+          "price": 6700,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/usp.png"
         }
       ]
     }
