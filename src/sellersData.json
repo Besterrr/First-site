@@ -1,0 +1,508 @@
+{
+  "sellers": [
+    {
+      "id": 1,
+      "name": "Alex_SkinMaster",
+      "rating": 4.8,
+      "totalSales": 1250,
+      "joinedDate": "2023-01-15",
+      "country": "Russia",
+      "comment": "⭐ Опытный коллекционер с 5-летним стажем. Специализируется на редких экземплярах Printstream коллекции. Все скины проверены на подлинность.",
+      "items": [
+        {
+          "id": 101,
+          "itemName": "USP-S | Printstream",
+          "collection": "Printstream Collection",
+          "price": 12500,
+          "wear": "Factory New",
+          "inStock": true,
+          "imageUrl": "/usp.webp"
+        },
+        {
+          "id": 102,
+          "itemName": "M4A1-S | Printstream",
+          "collection": "Printstream Collection",
+          "price": 18900,
+          "wear": "Factory New",
+          "inStock": true,
+          "imageUrl": "/m4a1s.webp"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "CS2_Trader",
+      "rating": 4.9,
+      "totalSales": 2350,
+      "joinedDate": "2022-08-20",
+      "country": "USA",
+      "comment": "🚀 Топовый трейдер CS2. Мгновенные сделки и честные цены. На рынке с 2022 года, более 2000 успешных сделок.",
+      "items": [
+        {
+          "id": 201,
+          "itemName": "USP-S | Printstream",
+          "collection": "Printstream Collection",
+          "price": 11800,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/usp.webp"
+        },
+        {
+          "id": 202,
+          "itemName": "AWP | Printstream",
+          "collection": "Printstream Collection",
+          "price": 29800,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/awp.webp"
+        },
+        {
+          "id": 203,
+          "itemName": "Five-SeveN | Monkey Business",
+          "collection": "Chroma Collection",
+          "price": 3800,
+          "wear": "Factory New",
+          "inStock": true,
+          "imageUrl": "/fiveSeven.webp"
+        },
+        {
+          "id": 204,
+          "itemName": "M4A1-S | Printstream",
+          "collection": "Printstream Collection",
+          "price": 18900,
+          "wear": "Factory New",
+          "inStock": true,
+          "imageUrl": "/m4a1s.webp"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "SkinHunter",
+      "rating": 4.7,
+      "totalSales": 890,
+      "joinedDate": "2023-05-10",
+      "country": "Germany",
+      "comment": "🔍 Охотник за редкими скинами. Предлагаю уникальные экземпляры по лучшим ценам. Каждый скин проходит проверку качества.",
+      "items": [
+        {
+          "id": 301,
+          "itemName": "USP-S | Printstream",
+          "collection": "Printstream Collection",
+          "price": 10500,
+          "wear": "Field-Tested",
+          "inStock": true,
+          "imageUrl": "/usp.webp"
+        },
+        {
+          "id": 302,
+          "itemName": "AK-47 | Wild Lotus",
+          "collection": "Marc Collection",
+          "price": 22800,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/ak47.webp"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "ProPlayer",
+      "rating": 4.9,
+      "totalSales": 3100,
+      "joinedDate": "2021-12-01",
+      "country": "Sweden",
+      "comment": "🏆 Профессиональный игрок и коллекционер. Все скины из личной коллекции. Гарантия подлинности и лучшие условия.",
+      "items": [
+        {
+          "id": 401,
+          "itemName": "M4A1-S | Printstream",
+          "collection": "Printstream Collection",
+          "price": 18500,
+          "wear": "Factory New",
+          "inStock": true,
+          "imageUrl": "/m4a1s.webp"
+        },
+        {
+          "id": 402,
+          "itemName": "AWP | Printstream",
+          "collection": "Printstream Collection",
+          "price": 32500,
+          "wear": "Factory New",
+          "inStock": true,
+          "imageUrl": "/awp.webp"
+        },
+        {
+          "id": 403,
+          "itemName": "Desert Eagle | Printstream",
+          "collection": "Printstream Collection",
+          "price": 9500,
+          "wear": "Factory New",
+          "inStock": true,
+          "imageUrl": "/deagle.webp"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "SkinMarket",
+      "rating": 4.6,
+      "totalSales": 1560,
+      "joinedDate": "2023-02-14",
+      "country": "Poland",
+      "comment": "💰 Крупный маркетплейс скинов. Большой ассортимент, быстрая доставка. Возврат средств в течение 14 дней.",
+      "items": [
+        {
+          "id": 501,
+          "itemName": "M4A1-S | Printstream",
+          "collection": "Printstream Collection",
+          "price": 17200,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/m4a1s.webp"
+        },
+        {
+          "id": 502,
+          "itemName": "P250 | See Ya Later",
+          "collection": "Spectrum Collection",
+          "price": 4200,
+          "wear": "Factory New",
+          "inStock": true,
+          "imageUrl": "/p250.webp"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "CSDealer",
+      "rating": 4.5,
+      "totalSales": 720,
+      "joinedDate": "2023-07-19",
+      "country": "Ukraine",
+      "comment": "🎯 Надежный дилер CS2. Работаю напрямую с поставщиками. Предлагаю скины по оптовым ценам. Оперативная поддержка 24/7.",
+      "items": [
+        {
+          "id": 601,
+          "itemName": "M4A1-S | Printstream",
+          "collection": "Printstream Collection",
+          "price": 15800,
+          "wear": "Field-Tested",
+          "inStock": false,
+          "imageUrl": "/m4a1s.webp"
+        },
+        {
+          "id": 602,
+          "itemName": "Glock-18 | Gamma-Dopler",
+          "collection": "Gamma Collection",
+          "price": 5900,
+          "wear": "Minimal Wear",
+          "inStock": false,
+          "imageUrl": "/glock.webp"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "AWP_Legend",
+      "rating": 4.8,
+      "totalSales": 980,
+      "joinedDate": "2022-11-05",
+      "country": "Finland",
+      "comment": "🎖️ Легенда среди коллекционеров AWP. Только лучшие экземпляры. Каждый скин имеет сертификат подлинности.",
+      "items": [
+        {
+          "id": 701,
+          "itemName": "AWP | Printstream",
+          "collection": "Printstream Collection",
+          "price": 32500,
+          "wear": "Factory New",
+          "inStock": true,
+          "imageUrl": "/awp.webp"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "EliteTrader",
+      "rating": 4.9,
+      "totalSales": 1870,
+      "joinedDate": "2022-06-30",
+      "country": "UK",
+      "comment": "💎 Элитный трейдер с эксклюзивными предложениями. Личные встречи по Лондону. Работаю с 2019 года, более 5000 довольных клиентов.",
+      "items": [
+        {
+          "id": 801,
+          "itemName": "AWP | Printstream",
+          "collection": "Printstream Collection",
+          "price": 29800,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/awp.webp"
+        },
+        {
+          "id": 802,
+          "itemName": "M4A4 | Temukau",
+          "collection": "Revolution Collection",
+          "price": 17800,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/m4a4.webp"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Deagle_King",
+      "rating": 4.7,
+      "totalSales": 1340,
+      "joinedDate": "2023-03-22",
+      "country": "Brazil",
+      "comment": "👑 Король Deagle! Самая большая коллекция Desert Eagle на платформе. Специальные цены для постоянных клиентов.",
+      "items": [
+        {
+          "id": 901,
+          "itemName": "Desert Eagle | Printstream",
+          "collection": "Printstream Collection",
+          "price": 9500,
+          "wear": "Factory New",
+          "inStock": true,
+          "imageUrl": "/deagle.webp"
+        },
+        {
+          "id": 902,
+          "itemName": "Desert Eagle | Printstream",
+          "collection": "Printstream Collection",
+          "price": 8700,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/deagle.webp"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "PistolMaster",
+      "rating": 4.6,
+      "totalSales": 1120,
+      "joinedDate": "2023-04-18",
+      "country": "Canada",
+      "comment": "🔫 Мастер пистолетных скинов. Полная коллекция пистолетов из разных наборов. Быстрая проверка и безопасная сделка.",
+      "items": [
+        {
+          "id": 1001,
+          "itemName": "Desert Eagle | Printstream",
+          "collection": "Printstream Collection",
+          "price": 8700,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/deagle.webp"
+        },
+        {
+          "id": 1002,
+          "itemName": "Glock-18 | Gamma-Dopler",
+          "collection": "Gamma Collection",
+          "price": 6800,
+          "wear": "Factory New",
+          "inStock": true,
+          "imageUrl": "/glock.webp"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "AK_Trader",
+      "rating": 4.8,
+      "totalSales": 2450,
+      "joinedDate": "2022-09-12",
+      "country": "Kazakhstan",
+      "comment": "🔥 Специалист по AK-47. Самые редкие вариации Wild Lotus. Трейдинг по всему СНГ. Гарантия лучшей цены.",
+      "items": [
+        {
+          "id": 1101,
+          "itemName": "AK-47 | Wild Lotus",
+          "collection": "Marc Collection",
+          "price": 24500,
+          "wear": "Factory New",
+          "inStock": true,
+          "imageUrl": "/ak47.webp"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "RifleExpert",
+      "rating": 4.7,
+      "totalSales": 890,
+      "joinedDate": "2023-08-01",
+      "country": "Australia",
+      "comment": "🎯 Эксперт по винтовкам. Все скины проходят проверку на Float Value. Доставка по всему миру.",
+      "items": [
+        {
+          "id": 1201,
+          "itemName": "AK-47 | Wild Lotus",
+          "collection": "Marc Collection",
+          "price": 22800,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/ak47.webp"
+        },
+        {
+          "id": 1202,
+          "itemName": "SSG 08 | Dragonfire",
+          "collection": "Glove Collection",
+          "price": 8500,
+          "wear": "Factory New",
+          "inStock": true,
+          "imageUrl": "/ssg.webp"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "GlockMaster",
+      "rating": 4.5,
+      "totalSales": 560,
+      "joinedDate": "2023-09-14",
+      "country": "Netherlands",
+      "comment": "🔫 Специализация — Glock-18. Большой выбор Gamma-Dopler. Низкие цены, быстрый обмен.",
+      "items": [
+        {
+          "id": 1301,
+          "itemName": "Glock-18 | Gamma-Dopler",
+          "collection": "Gamma Collection",
+          "price": 6800,
+          "wear": "Factory New",
+          "inStock": true,
+          "imageUrl": "/glock.webp"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "SkinCollector",
+      "rating": 4.9,
+      "totalSales": 3120,
+      "joinedDate": "2021-10-05",
+      "country": "South Korea",
+      "comment": "🏅 Один из старейших коллекционеров на платформе. Полная коллекция Printstream. Эксклюзивные скины из личной коллекции.",
+      "items": [
+        {
+          "id": 1401,
+          "itemName": "USP-S | Printstream",
+          "collection": "Printstream Collection",
+          "price": 11200,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/usp.webp"
+        },
+        {
+          "id": 1402,
+          "itemName": "M4A4 | Temukau",
+          "collection": "Revolution Collection",
+          "price": 19500,
+          "wear": "Factory New",
+          "inStock": true,
+          "imageUrl": "/m4a4.webp"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "SkinBoss",
+      "rating": 4.7,
+      "totalSales": 1450,
+      "joinedDate": "2022-12-20",
+      "country": "France",
+      "comment": "👔 Крупный продавец с премиум-аккаунтом. Только качественные скины. Работаю с 2020 года.",
+      "items": [
+        {
+          "id": 1501,
+          "itemName": "M4A4 | Temukau",
+          "collection": "Revolution Collection",
+          "price": 19500,
+          "wear": "Factory New",
+          "inStock": true,
+          "imageUrl": "/m4a4.webp"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "TradeGod",
+      "rating": 4.9,
+      "totalSales": 2780,
+      "joinedDate": "2022-07-08",
+      "country": "Singapore",
+      "comment": "👑 Бог трейдинга! Лучшие цены в регионе. Мгновенный обмен скинов. Более 2000 положительных отзывов.",
+      "items": [
+        {
+          "id": 1601,
+          "itemName": "M4A4 | Temukau",
+          "collection": "Revolution Collection",
+          "price": 17800,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/m4a4.webp"
+        },
+        {
+          "id": 1602,
+          "itemName": "AWP | Printstream",
+          "collection": "Printstream Collection",
+          "price": 31500,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/awp.webp"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "SniperPro",
+      "rating": 4.6,
+      "totalSales": 890,
+      "joinedDate": "2023-06-25",
+      "country": "Switzerland",
+      "comment": "🎯 Профессиональный снайпер в CS2. Предлагаю скины для AWP и SSG. Все скины с низким Float Value.",
+      "items": [
+        {
+          "id": 1701,
+          "itemName": "SSG 08 | Dragonfire",
+          "collection": "Glove Collection",
+          "price": 8500,
+          "wear": "Factory New",
+          "inStock": true,
+          "imageUrl": "/ssg.webp"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "CS_Investor",
+      "rating": 4.8,
+      "totalSales": 1950,
+      "joinedDate": "2022-04-15",
+      "country": "China",
+      "comment": "📈 Инвестиционный портфель скинов. Рекомендую для долгосрочных вложений. Аналитика рынка и прогнозы роста цен.",
+      "items": [
+        {
+          "id": 1801,
+          "itemName": "USP-S | Printstream",
+          "collection": "Printstream Collection",
+          "price": 11200,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/usp.webp"
+        },
+        {
+          "id": 1802,
+          "itemName": "AK-47 | Wild Lotus",
+          "collection": "Marc Collection",
+          "price": 23500,
+          "wear": "Minimal Wear",
+          "inStock": true,
+          "imageUrl": "/ak47.webp"
+        }
+      ]
+    }
+  ]
+}

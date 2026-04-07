@@ -28,6 +28,7 @@ const Home = () => {
         if(searchQuery){
             result = result.filter(skin => skin.itemName.toLowerCase().includes(searchQuery.toLowerCase()));
         }
+
         return result
     }, [filter, searchQuery, skinsData]);
 
