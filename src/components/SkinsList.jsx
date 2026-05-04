@@ -1,5 +1,5 @@
 import React from 'react';
-import '../pages/Home.css';
+import '../styles/components/SkinsList.css';
 import {useNavigate} from "react-router-dom";
 
 const SkinsList = ({displayedSkins}) => {
@@ -11,40 +11,45 @@ const SkinsList = ({displayedSkins}) => {
     };
 
     return (
-        <main className="skins-content">
+        <section className="catalog__content">
             {displayedSkins.length > 0
-                ? <h1 className="skins-title">Каталог скинов</h1>
-                : <h1 className="skins-title">Скинов не найдено</h1>
+                ? <h1 className="catalog__title">Каталог скинов</h1>
+                : <h1 className="catalog__title">Скинов не найдено</h1>
             }
-            <div className="skins-grid">
+            <div className="catalog-grid">
                 {displayedSkins.map(skin => (
-                    <div key={skin.id} className="skin-card">
-                        <div className="skin-card-image">
-                            <img src={skin.imageUrl} alt={skin.itemName}/>
-                            <div className="skin-card-overlay">
-                                <button onClick={() => handleClick(skin)} className="view-btn">Подробнее</button>
+                    <article key={skin.id} className="skin-card">
+                        <div className="skin-card__image-wrapper">
+                            <img
+                                className="skin-card__image"
+                                src={skin.imageUrl}
+                                alt={skin.itemName}
+                            />
+                            <div className="skin-card__overlay">
+                                <button onClick={() => handleClick(skin)} className="skin-card__btn">Подробнее</button>
                             </div>
                         </div>
-                        <div className="skin-card-info">
-                            <h3 className="skin-name">{skin.itemName}</h3>
-                            <p className="skin-seller">
-                                <span className="seller-icon">👤</span> {skin.sellerName}
+                        <div className="skin-card__info">
+                            <h3 className="skin-card__name">{skin.itemName}</h3>
+                            <p className="skin-card__seller">
+                                <span className="skin-card__seller-icon">👤</span> {skin.sellerName}
                             </p>
-                            <p className="skin-price">{skin.price.toLocaleString()} ₽</p>
-                            <div className="skin-details">
-                                    <span className={`wear-badge wear-${skin.wear.toLowerCase().replace(' ', '-')}`}>
+                            <p className="skin-card__price">{skin.price.toLocaleString()} ₽</p>
+                            <div className="skin-card__details">
+                                    <span className={`skin-card__wear skin-card__wear--${skin.wear.toLowerCase().replace(' ', '-')}`}>
                                         {skin.wear}
                                     </span>
-                                <span className={`stock-badge ${skin.inStock ? 'in-stock' : 'out-of-stock'}`}>
-                                        {skin.inStock ? '✓ В наличии' : '✗ Нет в наличии'}
-                                    </span>
+                                <span className={`skin-card__stock ${skin.inStock ? 'skin-card__stock--in' : 'skin-card__stock--out'}`}>
+                                    {skin.inStock ? '✓ В наличии' : '✗ Нет в наличии'}
+                                </span>
                             </div>
                         </div>
-                    </div>
+
+                    </article>
                 ))}
             </div>
 
-        </main>
+        </section>
     );
 };
 

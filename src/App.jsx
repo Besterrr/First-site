@@ -1,5 +1,5 @@
-import '/src/styles/variable.css';
-import '/src/styles/global.css';
+import '/src/styles/global/variable.css';
+import '/src/styles/global/global.css';
 import '/src/styles/components/Navigation.css';
 import '/src/styles/components/Footer.css';
 

@@ -1,7 +1,7 @@
 import React, {useMemo, useState} from 'react';
-import {Navigate, Outlet} from "react-router-dom";
+import {Outlet} from "react-router-dom";
 import { sellers } from "../sellersData.json";
-import "./Sellers.css"
+import "../styles/pages/Sellers.css"
 import SellersList from "../components/SellersList.jsx";
 
 const Sellers = () => {
@@ -61,17 +61,17 @@ const Sellers = () => {
                 <Outlet/>
                 <main className="sellers-content">
                     <div className="sellers-search">
-                        <div className="search-wrapper">
-                            <span className="search-icon">🔍</span>
+                        <div className="search">
+                            <span className="search__icon">🔍</span>
                             <input
                                 type="text"
-                                className="search-input"
+                                className="search__input"
                                 placeholder="Поиск по имени продавца"
                                 value={searchQuery}
                                 onChange={(e) => handleSearchChange(e.target.value)}
                             />
                             {searchQuery && (
-                                <button className="clear-search" onClick={clearSearch}>
+                                <button className="search__clear" onClick={clearSearch}>
                                     ✕
                                 </button>
                             )}

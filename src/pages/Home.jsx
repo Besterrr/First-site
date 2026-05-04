@@ -1,6 +1,6 @@
 import React, {useMemo, useState} from 'react';
 import { skinsData } from "../data.json";
-import './Home.css';
+import '../styles/pages/Home.css';
 import SkinsList from "../components/SkinsList.jsx";
 
 const Home = () => {
@@ -59,34 +59,34 @@ const Home = () => {
     };
 
     return (
-        <>
-            <div className="skins-filters">
+        <main className= "catalog">
+            <div className="catalog-filters">
                 <button
-                    className={`filter-btn ${filter === 'all' ? 'active' : ''}`}
+                    className={`catalog__filter-btn ${filter === 'all' ? 'active' : ''}`}
                     onClick={() => handleFilterChange("all")}
                 >
                     Все скины
                 </button>
                 <button
-                    className={`filter-btn ${filter === 'inStock' ? 'active' : ''}`}
+                    className={`catalog__filter-btn ${filter === 'inStock' ? 'active' : ''}`}
                     onClick={() => handleFilterChange("inStock")}
                 >
                     В наличии
                 </button>
             </div>
 
-            <div className="skins-search">
-                <div className="search-wrapper">
-                    <span className="search-icon">🔍</span>
+            <div className="catalog-search">
+                <div className="search">
+                    <span className="search__icon">🔍</span>
                     <input
                         type="text"
-                        className="search-input"
+                        className="search__input"
                         placeholder="Поиск по названию скина..."
                         value={searchQuery}
                         onChange={(e) => handleSearch(e.target.value)}
                     />
                     {searchQuery && (
-                        <button className="clear-search" onClick={clearSearch}>
+                        <button className="search__clear" onClick={clearSearch}>
                             ✕
                         </button>
                     )}
@@ -110,7 +110,7 @@ const Home = () => {
             )}
 
             <hr style={{marginTop: "50px"}} color="2a2a3a"/>
-        </>
+        </main>
     );
 };
 

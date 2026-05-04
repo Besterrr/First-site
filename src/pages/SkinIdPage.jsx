@@ -1,9 +1,9 @@
-import React, {useContext} from 'react';
+import React from 'react';
 import {Link, Navigate, useNavigate, useParams} from "react-router-dom";
 import { skinsData } from "../data.json";
 import Footer from "../components/Footer.jsx";
 import Navigation from "../components/Navigation.jsx";
-import "./SkinIdPage.css"
+import "../styles/pages/SkinIdPage.css"
 import {AuthContext} from "../context/AuthContext.jsx";
 
 const SkinIdPage = () => {
@@ -17,7 +17,7 @@ const SkinIdPage = () => {
     if (!skin) {
         return (
                 <main className="main-content">
-                    <div className="not-found">
+                    <div className="main-content__not-found">
                         <h2>Скин не найден</h2>
                         <Link to="/">Вернуться на главную</Link>
                     </div>
@@ -28,44 +28,47 @@ const SkinIdPage = () => {
     return (
         <div className="page-wrapper">
 
-            <main className="skin-detail-page">
-                <button onClick={() => navigate(-1)} className="back-btn">
+            <main className="component">
+                <button onClick={() => navigate(-1)} className="component__back-btn">
                     ← Назад
                 </button>
 
-                <div className="skin-detail-container">
-                    <div className="skin-detail-image">
-                        <img src={skin.imageUrl} alt={skin.itemName}/>
+                <div className="component-details">
+                    <div className="details__image-wrapper">
+                        <img
+                            className="details__image"
+                            src={skin.imageUrl}
+                            alt={skin.itemName}/>
                     </div>
 
-                    <div className="skin-detail-info">
-                        <h1 className="skin-detail-name">{skin.itemName}</h1>
+                    <div className="details__info">
+                        <h1 className="details__info-name">{skin.itemName}</h1>
 
-                        <div className="skin-detail-seller">
-                            <span className="seller-icon">👤</span>
+                        <div className="details__info-seller">
+                            <span className="details__info-seller-icon">👤</span>
                             <span>Продавец: {skin.sellerName}</span>
                         </div>
 
-                        <div className="skin-detail-price">
-                            <span className="price-label">Цена:</span>
-                            <span className="price-value">{skin.price.toLocaleString()} ₽</span>
+                        <div className="details__info-price">
+                            <span className="details__info-price-label">Цена:</span>
+                            <span className="details__info-price-value">{skin.price.toLocaleString()} ₽</span>
                         </div>
 
-                        <div className="skin-detail-wear">
-                            <span className="wear-label">Состояние:</span>
-                            <span className={`wear-badge wear-${skin.wear.toLowerCase().replace(' ', '-')}`}>
+                        <div className="details__info-wear">
+                            <span className="details__info-wear-label">Состояние:</span>
+                            <span className={`details__info-wear-badge wear-${skin.wear.toLowerCase().replace(' ', '-')}`}>
                                 {skin.wear}
                             </span>
                         </div>
 
-                        <div className="skin-detail-stock">
-                            <span className="stock-label">Наличие:</span>
+                        <div className="details__info-stock">
+                            <span className="details__info-stock-label">Наличие:</span>
                             <span className={`stock-badge ${skin.inStock ? 'in-stock' : 'out-of-stock'}`}>
                                 {skin.inStock ? 'В наличии' : 'Нет в наличии'}
                             </span>
                         </div>
 
-                        <div className="skin-detail-description">
+                        <div className="details__info-description">
                             <h3>Описание</h3>
                             <p>
                                 {skin.itemName} — эксклюзивный скин из коллекции Printstream.
@@ -74,7 +77,7 @@ const SkinIdPage = () => {
                         </div>
 
                         <button
-                            className="buy-btn"
+                            className="details__info__buy-btn"
                             disabled={!skin.inStock}
                         >
                             {skin.inStock ? 'Купить сейчас' : 'Нет в наличии'}

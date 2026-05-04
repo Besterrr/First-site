@@ -1,5 +1,4 @@
-/* Глобальные стили и сброс */
-@import '../styles/variable.css';
+@import 'variable.css';
 
 * {
     margin: 0;

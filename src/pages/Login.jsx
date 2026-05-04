@@ -2,6 +2,7 @@ import React, {useContext, useState} from 'react';
 import MyInput from "../UI/input/MyInput.jsx";
 import {useNavigate} from "react-router-dom";
 import {AuthContext} from "../context/AuthContext.jsx";
+import "../styles/pages/Login.css"
 
 const Login = () => {
     const [username, setUsername] = useState("");
@@ -18,7 +19,7 @@ const Login = () => {
     };
 
     return (
-        <form onSubmit={handleSubmit}> {/* Добавлен onSubmit */}
+        <form onSubmit={handleSubmit}>
             <h1 className="form-title">Авторизация</h1>
             <MyInput
                 type = "text"
@@ -29,7 +30,7 @@ const Login = () => {
             <MyInput
                 placeholder="Введите пароль"
             />
-            <button type="submit" className="form-button">Войти</button> {/* Добавлен type="submit" */}
+            <button type="submit" className="form-button">Войти</button>
         </form>
     );
 };

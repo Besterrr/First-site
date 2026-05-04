@@ -45,7 +45,7 @@ const Footer = () => {
 
             </div>
             <hr style = {{marginTop: "30px"}} color="2a2a3a"/>
-            <h5 className= "footer_under_text">© 2024 CS Funs. Все права защищены. Не связан с Valve Corporation.</h5>
+            <h5 className= "footer_under_text">© 2026 CS Funs. Все права защищены. Не связан с Valve Corporation.</h5>
         </footer>
     );
 };

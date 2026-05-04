@@ -1,0 +1,224 @@
+@import "../pages/Home.css";
+
+.catalog__content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.catalog__title {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.catalog__title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: rgb(187, 81, 45);
+    border-radius: 2px;
+}
+
+.catalog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.catalog-grid__card {
+    background: rgba(30, 30, 40, 0.8);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    position: relative;
+}
+
+.skin-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    border-color: rgba(187, 81, 45, 0.5);
+}
+
+.skin-card__image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+}
+
+.skin-card__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.skin-card:hover .skin-card__image {
+    transform: scale(1.05);
+}
+
+.skin-card__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.skin-card:hover .skin-card__overlay {
+    opacity: 1;
+}
+
+.skin-card__btn {
+    padding: 10px 20px;
+    background: rgb(187, 81, 45);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.skin-card__btn:hover {
+    background: rgb(157, 61, 35);
+    transform: scale(1.05);
+}
+
+.skin-card__info {
+    padding: 20px;
+}
+
+.skin-card__name {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    line-height: 1.4;
+}
+
+.skin-card__seller {
+    color: rgb(104, 104, 109);
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.seller-card__seller-icon {
+    font-size: 14px;
+}
+
+.skin-card__price {
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(187, 81, 45);
+    margin-bottom: 12px;
+}
+
+.skin-card__details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+/* ===== Износ (wear) ===== */
+.skin-card__wear {
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.skin-card__wear--factory-new {
+    background: rgba(76, 175, 80, 0.2);
+    color: #4caf50;
+    border: 1px solid #4caf50;
+}
+
+.skin-card__wear--minimal-wear {
+    background: rgba(139, 195, 74, 0.2);
+    color: #8bc34a;
+    border: 1px solid #8bc34a;
+}
+
+.skin-card__wear--field-tested {
+    background: rgba(255, 152, 0, 0.2);
+    color: #ff9800;
+    border: 1px solid #ff9800;
+}
+
+.skin-card__wear--well-worn {
+    background: rgba(255, 87, 34, 0.2);
+    color: #ff5722;
+    border: 1px solid #ff5722;
+}
+
+.skin-card__wear--battle-scarred {
+    background: rgba(244, 67, 54, 0.2);
+    color: #f44336;
+    border: 1px solid #f44336;
+}
+
+/* ===== Наличие (stock) ===== */
+.skin-card__stock {
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.skin-card__stock--in {
+    background: rgba(76, 175, 80, 0.2);
+    color: #4caf50;
+    border: 1px solid #4caf50;
+}
+
+.skin-card__stock--out {
+    background: rgba(244, 67, 54, 0.2);
+    color: #f44336;
+    border: 1px solid #f44336;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.skin-card {
+    animation: fadeInUp 0.5s ease forwards;
+}
+
+.skin-card:nth-child(1) { animation-delay: 0.1s; }
+.skin-card:nth-child(2) { animation-delay: 0.2s; }
+.skin-card:nth-child(3) { animation-delay: 0.3s; }
+.skin-card:nth-child(4) { animation-delay: 0.4s; }
+.skin-card:nth-child(5) { animation-delay: 0.5s; }
+.skin-card:nth-child(6) { animation-delay: 0.6s; }

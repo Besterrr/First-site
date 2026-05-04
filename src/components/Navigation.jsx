@@ -17,34 +17,62 @@ const Navigation = () => {
     };
 
     return (
-        <nav>
+        <nav className="nav">
             <hr/>
-            <div className= "container">
-                <div className= "container__logo">
-                    <Link to = "/">
-                        <img src="/logo.jpg" alt="logo"/>
-                    </Link>
 
+            <div className="nav__container">
+                <div className="nav__logo">
+                    <Link to="/" className="nav__logo-link">
+                        <img
+                            className="nav__logo-image"
+                            src="/logo.jpg"
+                            alt="logo"
+                        />
+                    </Link>
                 </div>
 
-                <div className= "container__links">
-                    <Link to = "/sellers">
+                <div className="nav__links">
+                    <Link to="/sellers" className="nav__link">
                         SELLERS
                     </Link>
-                    <Link to = "/">
+                    <Link to="/" className="nav__link">
                         SKINS
                     </Link>
-                    <Link to = "/about">
+                    <Link to="/about" className="nav__link">
                         ABOUT
                     </Link>
                 </div>
 
-                <div className="container__login">
+                <div className="user-menu">
+                    <div className="user-menu__cart">
+                        <Link
+                            to="/purchases"
+                            className="user-menu__cart-link"
+                        >
+                            <svg
+                                className="user-menu__cart-icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <circle cx="9" cy="21" r="1"></circle>
+                                <circle cx="20" cy="21" r="1"></circle>
+                                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                            </svg>
+                        </Link>
+                    </div>
+
                     {isAuth ? (
                         <>
                             <button
                                 onClick={toggleMenu}
-                                className="user-menu-button"
+                                className="user-menu__button"
                             >
                                 {user?.username || 'Профиль'}
                             </button>
@@ -54,12 +82,17 @@ const Navigation = () => {
                             />
                         </>
                     ) : (
-                        <Link className="login-button" to="/login">
+                        <Link
+                            to="/login"
+                            className="user-menu__login-link"
+                        >
                             LOGIN
                         </Link>
                     )}
                 </div>
+
             </div>
+
             <hr/>
         </nav>
     );

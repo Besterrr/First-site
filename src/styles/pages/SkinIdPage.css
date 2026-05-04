@@ -1,12 +1,11 @@
-/* SkinDetail.css */
-.skin-detail-page {
+.component {
     max-width: 1200px;
     margin: 40px auto;
     padding: 0 20px;
     min-height: 60vh;
 }
 
-.back-btn {
+.component__back-btn {
     background: none;
     border: none;
     color: rgb(104, 104, 109);
@@ -20,11 +19,11 @@
     gap: 5px;
 }
 
-.back-btn:hover {
+.component__back-btn:hover {
     color: rgb(187, 81, 45);
 }
 
-.skin-detail-container {
+.component-details {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
@@ -35,32 +34,32 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.skin-detail-image {
+.details__image-wrapper {
     border-radius: 15px;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.3);
 }
 
-.skin-detail-image img {
+.details__image {
     width: 100%;
     height: auto;
     object-fit: cover;
     display: block;
 }
 
-.skin-detail-info {
+.details__info {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.skin-detail-name {
+.details__info-name {
     font-size: 32px;
     color: white;
     margin-bottom: 10px;
 }
 
-.skin-detail-seller {
+.details__info-seller {
     color: rgb(104, 104, 109);
     font-size: 18px;
     display: flex;
@@ -68,54 +67,54 @@
     gap: 8px;
 }
 
-.skin-detail-price {
+.details__info-price {
     display: flex;
     align-items: baseline;
     gap: 15px;
     flex-wrap: wrap;
 }
 
-.price-label {
+.details__info-price-label {
     color: rgb(104, 104, 109);
     font-size: 16px;
 }
 
-.price-value {
+.details__info-price-value {
     font-size: 36px;
     font-weight: 700;
     color: rgb(187, 81, 45);
 }
 
-.skin-detail-wear,
-.skin-detail-stock {
+.details__info-wear,
+.details__info-stock {
     display: flex;
     align-items: center;
     gap: 15px;
     flex-wrap: wrap;
 }
 
-.wear-label,
-.stock-label {
+.details__info-wear-label,
+.details__info-stock-label {
     color: rgb(104, 104, 109);
     font-size: 16px;
 }
 
-.skin-detail-description {
+.details__info-description {
     margin-top: 10px;
 }
 
-.skin-detail-description h3 {
+.details__info-description h3 {
     color: white;
     margin-bottom: 10px;
     font-size: 20px;
 }
 
-.skin-detail-description p {
+.details__info-description p {
     color: rgb(104, 104, 109);
     line-height: 1.6;
 }
 
-.buy-btn {
+.details__info__buy-btn {
     margin-top: 20px;
     padding: 14px 32px;
     background: rgb(187, 81, 45);
@@ -129,43 +128,43 @@
     width: fit-content;
 }
 
-.buy-btn:hover:not(:disabled) {
+.details__info__buy-btn:hover:not(:disabled) {
     background: rgb(157, 61, 35);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(187, 81, 45, 0.4);
 }
 
-.buy-btn:disabled {
+.details__info__buy-btn:disabled {
     opacity: 0.5;
     cursor: not-allowed;
 }
 
-.not-found {
+.main-content__not-found {
     text-align: center;
     padding: 100px 20px;
 }
 
-.not-found h2 {
+.main-content__not-found h2 {
     color: white;
     margin-bottom: 20px;
 }
 
-.not-found a {
+.main-content__not-found a {
     color: rgb(187, 81, 45);
     text-decoration: none;
 }
 
 @media (max-width: 768px) {
-    .skin-detail-container {
+    .component-details {
         grid-template-columns: 1fr;
         gap: 30px;
     }
 
-    .skin-detail-name {
+    .details__info-name {
         font-size: 24px;
     }
 
-    .price-value {
+    .details__info-price-value {
         font-size: 28px;
     }
 }

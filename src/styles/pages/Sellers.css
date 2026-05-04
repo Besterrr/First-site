@@ -1,4 +1,4 @@
-@import '../styles/variable.css';
+@import '../../styles/global/variable.css';
 
 .sellers-content {
     min-height: 100vh;
@@ -110,4 +110,78 @@
 
 .seller-skins:hover{
     color: var(--text-orange)
+}
+
+.sellers-search {
+    max-width: 600px;
+    margin: 0 auto 40px;
+    padding: 0 20px;
+}
+
+.search {
+    position: relative;
+    width: 100%;
+}
+
+.search__icon {
+    position: absolute;
+    left: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: rgb(104, 104, 109);
+    pointer-events: none;
+    transition: color 0.3s ease;
+}
+
+.search__input {
+    width: 100%;
+    padding: 14px 20px 14px 50px;
+    font-size: 16px;
+    background: rgba(30, 30, 40, 0.9);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    color: white;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.search__input:focus {
+    border-color: rgb(187, 81, 45);
+    background: rgba(30, 30, 40, 1);
+    box-shadow: 0 0 0 3px rgba(187, 81, 45, 0.2);
+}
+
+.search__input:focus + .search__icon {
+    color: rgb(187, 81, 45);
+}
+
+.search__input::placeholder {
+    color: rgb(104, 104, 109);
+    font-size: 14px;
+}
+
+.search__clear {
+    position: absolute;
+    right: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: rgb(104, 104, 109);
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.search__clear:hover {
+    color: rgb(187, 81, 45);
+    background: rgba(187, 81, 45, 0.1);
 }

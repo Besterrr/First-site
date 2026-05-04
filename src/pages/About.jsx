@@ -1,6 +1,6 @@
 import React from 'react';
 import {Outlet} from "react-router-dom";
-import "./About.css"
+import "../styles/pages/About.css"
 
 const About = () => {
     return (
@@ -11,7 +11,7 @@ const About = () => {
 
                 <div className="about-block">
                     <img src="../../public/logo.jpg" alt="logo"/>
-                    <p>Инфааааааааааааааааааааааааааааааааааааааааааааааaааааааааааааааааааааааааааааааааааааааааааaaaaaaааааааааааааааааааааааааааааааааааааааааааaaaaaaааааааааааааааааааааааааааааааааааааааааааaaaaaaааааааааааааааааааааааааааааааааааааааааааaaaaaaааааааааааааааааааааааааааааааааааааааааааaaaaaaааааааааааааааааааааааааааааааааааааааааааaaaaaaааааааааааааааааааааааааааааааааааааааааааaaaaaaааааааааааааааааааааааааааааааааааааааааааaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaаааааааааааааааааааааааааааааааааааааааааа</p>
+                    <p>Что-то там</p>
                 </div>
 
                 <hr style={{marginTop:'60px'}}/>
