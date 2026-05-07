@@ -59,9 +59,9 @@ const Sellers = () => {
         <div className="page-wrapper">
             <div>
                 <Outlet/>
-                <main className="sellers-content">
-                    <div className="sellers-search">
-                        <div className="search">
+                <main className="sellers-container">
+                    <div className="sellers-container__search">
+                    <div className="search">
                             <span className="search__icon">🔍</span>
                             <input
                                 type="text"
@@ -71,16 +71,16 @@ const Sellers = () => {
                                 onChange={(e) => handleSearchChange(e.target.value)}
                             />
                             {searchQuery && (
-                                <button className="search__clear" onClick={clearSearch}>
+                                <button className="search__clear-btn" onClick={clearSearch}>
                                     ✕
                                 </button>
                             )}
-                        </div>
                     </div>
+                        </div>
 
                     {displayedSellers.length > 0
-                        ? <h1 className="sellers-title">Список продавцов</h1>
-                            : <h1 className="sellers-title">Продавцов не найдено</h1>
+                        ? <h1 className="sellers-container__title">Список продавцов</h1>
+                            : <h1 className="sellers-container__title">Продавцов не найдено</h1>
                     }
 
                         <SellersList displayedSellers={displayedSellers} />

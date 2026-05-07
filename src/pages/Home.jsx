@@ -8,7 +8,7 @@ const Home = () => {
     const [searchQuery, setSearchQuery] = useState('');
     const [page, setPage] = useState(1);
     const [totalCount] = useState(skinsData.length);
-    const limit = 9;
+    const limit = 12;
     const totalPages = Math.ceil(totalCount / limit);
 
     const pages = useMemo(() => {

@@ -46,36 +46,34 @@ const UserMenu = ({ isOpen, onClose }) => {
 
     return (
         <div className="user-menu-dropdown" ref={menuRef}>
-            <div className="user-menu-list">
-                {/* Информация о пользователе */}
-                <div className="menu-item" style={{ cursor: 'default', opacity: 0.7 }}>
-                    <span>{user?.username || 'Пользователь'}</span>
+            <div className="user-menu__list">
+                <div className="menu__item" style={{ cursor: 'default', opacity: 0.7 }}>
+                    <span className="menu-item__user">{user?.username || 'Пользователь'}</span>
                 </div>
                 {user?.email && (
-                    <div className="menu-item" style={{ cursor: 'default', fontSize: '12px', opacity: 0.5 }}>
+                    <div className="menu__item" style={{ cursor: 'default', fontSize: '12px', opacity: 0.5 }}>
                         <span>{user.email}</span>
                     </div>
                 )}
 
-                <div className="menu-divider" />
+                <div className="user-menu__divider" />
 
-                {/* Пункты меню */}
-                <Link to="/profile" className="menu-item" onClick={handleItemClick}>
+                <Link to="/profile" className="menu__item" onClick={handleItemClick}>
                     <span>Профиль</span>
                 </Link>
 
-                <Link to="/settings" className="menu-item" onClick={handleItemClick}>
+                <Link to="/settings" className="menu__item" onClick={handleItemClick}>
                     <span>Настройки</span>
                 </Link>
 
-                <Link to="/my-skins" className="menu-item" onClick={handleItemClick}>
+                <Link to="/my-skins" className="menu__item" onClick={handleItemClick}>
                     <span>Мои скины</span>
                 </Link>
 
-                <div className="menu-divider" />
+                <div className="menu__divider" />
 
-                <button className="menu-item logout" onClick={handleLogout}>
-                    <span>Выйти</span>
+                <button className="menu__item logout" onClick={handleLogout}>
+                    <span className="menu_leave-btn">Выйти</span>
                 </button>
             </div>
         </div>

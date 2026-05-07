@@ -46,7 +46,7 @@ const Navigation = () => {
                 <div className="user-menu">
                     <div className="user-menu__cart">
                         <Link
-                            to="/purchases"
+                            to="/purchase"
                             className="user-menu__cart-link"
                         >
                             <svg

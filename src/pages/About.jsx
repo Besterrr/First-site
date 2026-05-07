@@ -6,75 +6,87 @@ const About = () => {
     return (
         <div className="page-wrapper">
             <Outlet/>
-            <main className="main-content">
-                <h1 className="about-title">О Нас</h1>
+            <main className="about-content">
+                <h1 className="about-content__title">О Нас</h1>
 
                 <div className="about-block">
-                    <img src="../../public/logo.jpg" alt="logo"/>
-                    <p>Что-то там</p>
+                    <img
+                        className="about-block__img"
+                        src="../../public/logo.jpg"
+                        alt="logo"/>
+                    <p className= "about-block__text">Что-то там</p>
                 </div>
 
-                <hr style={{marginTop:'60px'}}/>
+                <hr className= "about-content__divider"/>
 
                 <div className="advantages-block">
-                    <div className="card">
-                        <h1>🔫 Большой выбор</h1>
-                        <p>Предоставляем большой выбор скинов. Любое качество, любой патерн.</p>
+                    <div className="advantages-block__achievement-card">
+                        <h2 className="achievement-card__title">🔫 Большой выбор</h2>
+                        <p className= "achievement-card__text">Предоставляем большой выбор скинов. Любое качество, любой патерн.</p>
                     </div>
-                    <div className="card">
-                        <h1>⚡ Быстрые переводы</h1>
-                        <p>Скоростная доставка скинов после покупки</p>
+                    <div className="advantages-block__achievement-card">
+                        <h2 className="achievement-card__title">⚡ Быстрые переводы</h2>
+                        <p className= "achievement-card__text">Скоростная доставка скинов после покупки</p>
                     </div>
-                    <div className="card">
-                        <h1>🛡️ Безопасность</h1>
-                        <p>Все сделки открыты и защищены командой</p>
+                    <div className="advantages-block__achievement-card">
+                        <h2 className="achievement-card__title">🛡️ Безопасность</h2>
+                        <p className="achievement-card__text">Все сделки открыты и защищены командой</p>
                     </div>
-                    <div className="card">
-                        <h1>💬 Поддежка 24/7</h1>
-                        <p>Круглосуточная поддержка, которая поможет с любым вопросом</p>
+                    <div className="advantages-block__achievement-card">
+                        <h2 className="achievement-card__title">💬 Поддежка 24/7</h2>
+                        <p className= "achievement-card__text">Круглосуточная поддержка, которая поможет с любым вопросом</p>
                     </div>
-                    <div className="card">
-                        <h1>👥 Большое количество продавцов</h1>
-                        <p>Огромное комьюнити продавцов с товарами на любой вкус</p>
+                    <div className="advantages-block__achievement-card">
+                        <h2 className="achievement-card__title">👥 Большое количество продавцов</h2>
+                        <p className= "achievement-card__text">Огромное комьюнити продавцов с товарами на любой вкус</p>
                     </div>
-                    <div className="card">
-                        <h1>💎 Низкая комиссия</h1>
-                        <p>Удобная для пользователя взымаемая комиссия за продажу</p>
+                    <div className="advantages-block__achievement-card">
+                        <h2 className="achievement-card__title">💎 Низкая комиссия</h2>
+                        <p className= "achievement-card__text">Удобная для пользователя взымаемая комиссия за продажу</p>
                     </div>
                 </div>
 
-                <hr style={{marginTop:'60px'}}/>
+                <hr className= "about-content__divider"/>
 
                 <div className="command-block">
-
                     <div className="command-card">
-                        <img src="../../public/user.webp" alt="avatar"/>
-                        <p className="name">Никита</p>
-                        <p className="role">Главный разработчик</p>
+                        <img
+                            className="command-card__img"
+                            src="../../public/user.webp"
+                            alt="avatar"/>
+                        <p className="command-card__name">Никита</p>
+                        <p className="command-card__role">Главный разработчик</p>
                     </div>
 
                     <div className="command-card">
-                        <img src="../../public/user.webp" alt="avatar"/>
-                        <p className="name">Кирилл</p>
-                        <p className="role">Пиар-менеджер</p>
+                        <img
+                            className="command-card__img"
+                            src="../../public/user.webp"
+                            alt="avatar"/>
+                        <p className="command-card__name">Кирилл</p>
+                        <p className="command-card__role">Пиар-менеджер</p>
                     </div>
 
                     <div className="command-card">
-                        <img src="../../public/user.webp" alt="avatar"/>
-                        <p className="name">Арсений</p>
-                        <p className="role">Тех-поддержка</p>
+                        <img
+                            className="command-card__img"
+                            src="../../public/user.webp"
+                            alt="avatar"/>
+                        <p className="command-card__name">Арсений</p>
+                        <p className="command-card__role">Тех-поддержка</p>
                     </div>
 
                     <div className="command-card">
-                        <img src="../../public/user.webp" alt="avatar"/>
-                        <p className="name">Элина</p>
-                        <p className="role">Менеджер</p>
+                        <img
+                            className="command-card__img"
+                            src="../../public/user.webp"
+                            alt="avatar"/>
+                        <p className="command-card__name">Элина</p>
+                        <p className="command-card__role">Менеджер</p>
                     </div>
-
                 </div>
 
             </main>
-            <hr/>
         </div>
     );
 };

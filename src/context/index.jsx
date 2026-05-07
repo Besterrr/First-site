@@ -10,7 +10,7 @@ export const AuthProvider = ({children}) => {
         const auth = localStorage.getItem("auth");
         const savedUser = localStorage.getItem("user");
 
-        if (auth === "true") {
+        if (auth) {
             setIsAuth(true);
         }
 

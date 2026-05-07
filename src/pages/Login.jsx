@@ -19,18 +19,18 @@ const Login = () => {
     };
 
     return (
-        <form onSubmit={handleSubmit}>
-            <h1 className="form-title">Авторизация</h1>
+        <form className="login-form" onSubmit={handleSubmit}>
+            <h1 className="login-form__title">Авторизация</h1>
             <MyInput
                 type = "text"
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
-                placeholder="Введите никнейм"
+                placeholder="Введите имя пользователя"
             />
             <MyInput
                 placeholder="Введите пароль"
             />
-            <button type="submit" className="form-button">Войти</button>
+            <button type="submit" className="login-form__enter-button">Войти</button>
         </form>
     );
 };

@@ -1,51 +1,63 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 const Footer = () => {
     return (
-        <footer>
+        <footer className="footer">
             <div className="footer__container">
-                <div className="footer__logo">
-                    <img src="/logo.jpg" alt=""/>
-                </div>
-                <div className="footer__links">
-                    <h4>ИНФОРМАЦИЯ</h4>
-                </div>
-                <div className="footer__links">
-                    <h4>ПРАВОВАЯ ИНФОРМАЦИЯ</h4>
-                </div>
-                <div>
-                    <h4>КОНТАКТЫ</h4>
+
+                <div className="footer__column">
+                    <img
+                        className="footer__logo"
+                        src="/logo.jpg"
+                        alt="logo"
+                    />
                 </div>
 
-                <div className="footer__under_link_text">
-                    <h5>ЧЁ-ТО ТАМ КАКАЯ-ТО ИНФА</h5>
+                <div className="footer__column">
+                    <h4 className="footer__title">ИНФОРМАЦИЯ</h4>
+                    <ul className="footer__list">
+                        <li className="footer__list-item">
+                            <Link className="footer__link" to="about">О нас</Link>
+                        </li>
+                        <li className="footer__list-item">
+                            <Link className="footer__link" to="">Как это работает</Link>
+                        </li>
+                    </ul>
                 </div>
 
-                <div className="footer__under_link_text">
-                    <a href="">О нас</a> <br/>
-                    {/*<a href="">FAQ</a>*/}
-                </div>
-                <div className="footer__under_link_text">
-                    <a href="">Политика конфиденциальности</a>
-                </div>
-                <div className="footer__under_link_text">
-                    <p>support@csfuns.com</p>
-                </div>
-
-                <div className="footer__under_link_text_row_second">
-                    <a href="">Как это работает</a>
-                </div>
-                <div className="footer__under_link_text_row">
-                    <a href="">Условия использования</a>
+                <div className="footer__column">
+                    <h4 className="footer__title">ПРАВОВАЯ ИНФОРМАЦИЯ</h4>
+                    <ul className="footer__list">
+                        <li className="footer__list-item">
+                            <Link className="footer__link" to="">Политика конфиденциальности</Link>
+                        </li>
+                        <li className="footer__list-item">
+                            <Link className="footer__link" to="">Условия использования</Link>
+                        </li>
+                    </ul>
                 </div>
 
-                <div className="footer__under_link_text">
-                    <p>24/7 поддержка</p>
+                <div className="footer__column">
+                    <h4 className="footer__title">КОНТАКТЫ</h4>
+                    <div className="footer__contacts">
+                        <p className="footer__text">
+                            <a className="footer__link" href="mailto:support@csfuns.com">
+                                support@csfuns.com
+                            </a>
+                        </p>
+                        <p className="footer__text footer__text--muted">
+                            24/7 поддержка
+                        </p>
+                    </div>
                 </div>
-
             </div>
-            <hr style = {{marginTop: "30px"}} color="2a2a3a"/>
-            <h5 className= "footer_under_text">© 2026 CS Funs. Все права защищены. Не связан с Valve Corporation.</h5>
+
+            <hr className="footer__divider"/>
+
+            <p className="footer__copyright">
+                © 2026 CS Funs. Все права защищены. Не связан с Valve Corporation.
+            </p>
         </footer>
     );
 };

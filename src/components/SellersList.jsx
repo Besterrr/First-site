@@ -1,39 +1,41 @@
 import React from 'react';
+import "../styles/components/SellersList.css"
 
 const SellersList = ({displayedSellers}) => {
     return (
-        <div className="sellers-grid">
+        <main className="sellers-card-list">
             {displayedSellers.map(seller => (
-                <div key={seller.id} className="seller">
-                    <div className="seller-card">
-                        <div className="seller-card-info">
-                            <h3 className="seller-name">{seller.name}</h3>
-                            <p className="seller-rating">⭐{seller.rating}</p>
-                            <p className="seller-total-sells">🛒{seller.totalSales} продаж</p>
-                            <p className="seller-joined-date">📅{seller.joinedDate}</p>
-                            <div className="seller-country">
-                                <img src={seller.countryUrl} alt={seller.country}/>
+                <div key={seller.id} className="seller-card">
+                        <div className="seller_card__information">
+                            <h3 className="seller_card__name">{seller.name}</h3>
+                            <p className="seller_card__rating">⭐{seller.rating}</p>
+                            <p className="seller_card__total-sells">🛒{seller.totalSales} продаж</p>
+                            <p className="seller_card__joined-date">📅{seller.joinedDate}</p>
+                            <div className="seller_card__seller-country">
+                                <img
+                                    className="seller-country__image"
+                                    src={seller.countryUrl}
+                                    alt={seller.country}/>
                                 <p>{seller.country}</p>
                             </div>
                         </div>
-                        <div className="seller-card-skins">
-                            <div className="seller-skins">
+                        <div className="seller_card__skins-list">
+                            <div className="skins-list">
                                 {seller.items.slice(0, 3).map(item => (
                                     <div key={item.id}>
                                         {item.itemName}
                                     </div>
                                 ))}
                                 {seller.items.length > 3 && (
-                                    <div className="seller-more">
+                                    <div className="skins-list__more">
                                         +{seller.items.length - 3} more
                                     </div>
                                 )}
                             </div>
                         </div>
-                    </div>
                 </div>
             ))}
-        </div>
+        </main>
     );
 };
 

@@ -1,8 +1,7 @@
 .user-menu-dropdown {
     position: absolute;
     top: 100%;
-    right: 0;
-    margin-top: 8px;
+    margin-top: 10px;
     min-width: 220px;
     background: var(--bg-dark);
     border-radius: 12px;
@@ -25,14 +24,14 @@
     }
 }
 
-.user-menu-list {
+.user-menu__list {
     display: flex;
     flex-direction: column;
     gap: 4px;
     padding: 8px 0;
 }
 
-.menu-item {
+.menu__item {
     display: flex;
     align-items: center;
     gap: 12px;
@@ -49,12 +48,12 @@
     text-align: left;
 }
 
-.menu-item:hover {
+.menu__item:hover {
     background: rgba(187, 81, 45, 0.1);
     color: var(--accent-orange);
 }
 
-.menu-divider {
+.user-menu__divider {
     height: 1px;
     background: rgba(255, 255, 255, 0.1);
     margin: 8px 0;

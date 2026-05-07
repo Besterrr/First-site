@@ -23,6 +23,9 @@ const AppRouter = () => {
                 <Route element={<PrivateRoute />}>
                     <Route path="sellers" element={<Sellers />} />
                 </Route>
+                <Route element={<PrivateRoute />}>
+                    <Route path="purchase"/>
+                </Route>
 
                 <Route path="*" element={<Navigate to="/" replace />} />
             </Route>

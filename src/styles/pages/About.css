@@ -1,16 +1,15 @@
-.main-content{
+.about-content{
     max-width: 1200px;
     margin: 0 auto;
     padding: 40px 20px;
 }
 
-.about-title{
+.about-content__title{
     color: white;
     font-size: 48px;
     font-weight: bold;
     text-align: center;
     margin-bottom: 16px;
-
 }
 
 .about-block{
@@ -20,19 +19,23 @@
     justify-content: space-between;
 }
 
-.about-block img{
+.about-block__img{
     border-radius: var(--radius-image);
     flex: 1;
     max-width: 35%;
 }
 
-.about-block p{
+.about-block__text{
     overflow-wrap: break-word;
     max-width: 100%;
     word-break: break-all;
     color: var(--text-gray);
     flex: 1;
     font-size: 20px;
+}
+
+.about-content__divider{
+    margin-top: 60px;
 }
 
 .advantages-block{
@@ -42,7 +45,7 @@
     gap: 24px;
 }
 
-.card{
+.advantages-block__achievement-card{
     opacity: 0.7;
     border-radius: 16px;
     padding: 24px;
@@ -50,19 +53,19 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.card:hover{
+.advantages-block__achievement-card:hover{
     border: 1px solid var(--text-orange);
     margin-left: 2px;
     opacity: 1;
 }
 
-.card h1{
+.achievement-card__title{
     color: white;
     font-size: 25px;
     font-weight: bold;
 }
 
-.card p{
+.achievement-card__text{
     margin-top: 10px;
     color: var(--text-gray);
     font-size: 20px;
@@ -82,18 +85,18 @@
     border-radius: 16px;
 }
 
-.command-card img{
+.command-card__img{
     width: 100%;
 }
 
-.name{
+.command-card__name{
     text-align: center;
     font-weight: bold;
     color: rgba(224, 255, 255);
     font-size: 18px;
 }
 
-.role{
+.command-card__role{
     margin-top: 10px;
     text-align: center;
     color: rgba(224, 255, 255, 0.8);
