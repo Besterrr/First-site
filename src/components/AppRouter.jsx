@@ -7,6 +7,7 @@ import Login from "../pages/Login.jsx";
 import Sellers from "../pages/Sellers.jsx";
 import SkinIdPage from "../pages/SkinIdPage.jsx";
 import PrivateRoute from "./PrivateRoute.jsx";
+import Purchase from "../pages/Purchase.jsx";
 
 const AppRouter = () => {
 
@@ -24,7 +25,7 @@ const AppRouter = () => {
                     <Route path="sellers" element={<Sellers />} />
                 </Route>
                 <Route element={<PrivateRoute />}>
-                    <Route path="purchase"/>
+                    <Route path="purchase" element={<Purchase />} />
                 </Route>
 
                 <Route path="*" element={<Navigate to="/" replace />} />

@@ -11,6 +11,7 @@ const Home = () => {
     const limit = 12;
     const totalPages = Math.ceil(totalCount / limit);
 
+
     const pages = useMemo(() => {
         let pageArray = [];
         for (let i = 0; i < totalPages; i++) {

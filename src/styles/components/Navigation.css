@@ -42,7 +42,16 @@
 }
 
 .user-menu__cart {
+    position: relative;
     margin: auto;
+}
+
+.cart-badge__count{
+    top: -10px;
+    left: 30px;
+    position: absolute;
+    color: var(--text-orange);
+    font-size: 17px;
 }
 
 .user-menu__cart-icon{
@@ -85,3 +94,4 @@
     color: var(--accent-orange);
     text-decoration: underline;
 }
+

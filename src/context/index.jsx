@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react";
 import {AuthContext} from "./AuthContext.jsx";
+import {PurchaseContext} from "./PurchaseContext.jsx";
 
 export const AuthProvider = ({children}) => {
     const [isAuth, setIsAuth] = useState(false);
@@ -46,3 +47,59 @@ export const AuthProvider = ({children}) => {
         </AuthContext.Provider>
     );
 };
+
+export const PurchaseProvider = ({children}) => {
+    const [purchase, setPurchase] = useState(() => {
+
+    const savedPurchase = localStorage.getItem("purchase");
+    return savedPurchase ? JSON.parse(savedPurchase) : [];
+});
+    useEffect(() => {
+        localStorage.setItem("purchase", JSON.stringify(purchase));
+    }, [purchase]);
+
+    const addPurchase = (skin) => {
+        setPurchase(prev => {
+            const existingItem = prev.find(item => item.id === skin.id);
+
+            if (existingItem) {
+                return prev.map(item =>
+                    item.id === skin.id
+                        ? { ...item, quantity: item.quantity + 1 }
+                        : item
+                );
+            }
+
+            return [...prev, { ...skin, quantity: 1 }];
+        });
+    };
+
+    const deletePurchase = (id) => {
+            setPurchase(prev => prev.filter(s => id !== s.id));
+    }
+
+    const clearPurchase = () => {
+        setPurchase([])
+    }
+
+    const updateQuantity = (id, newQuantity) => {
+        setPurchase(prev => prev.map(item =>
+            item.id === id
+                ? {...item, quantity: newQuantity}
+                : item
+        ))
+    }
+
+    return (
+        <PurchaseContext.Provider value={{
+            purchase,
+            addPurchase,
+            deletePurchase,
+            clearPurchase,
+            updateQuantity }}>
+            {children}
+        </PurchaseContext.Provider>
+    );
+}
+
+

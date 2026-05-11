@@ -2,11 +2,13 @@ import React, {useContext, useState} from 'react';
 import {Link} from "react-router-dom";
 import {AuthContext} from "../context/AuthContext.jsx";
 import UserMenu from "./UserMenu.jsx";
+import { usePurchase } from "../App.jsx";
 
 const Navigation = () => {
 
     const {isAuth, user} = useContext(AuthContext);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const {purchase} = usePurchase();
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
@@ -45,6 +47,10 @@ const Navigation = () => {
 
                 <div className="user-menu">
                     <div className="user-menu__cart">
+                        {purchase.length > 0 && isAuth
+                            ? <span className="cart-badge__count">{purchase.length}</span>
+                            : null
+                        }
                         <Link
                             to="/purchase"
                             className="user-menu__cart-link"
@@ -57,9 +63,9 @@ const Navigation = () => {
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 stroke="currentColor"
-                                stroke-width="2"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
+                                strokeWidth="2"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
                             >
                                 <circle cx="9" cy="21" r="1"></circle>
                                 <circle cx="20" cy="21" r="1"></circle>

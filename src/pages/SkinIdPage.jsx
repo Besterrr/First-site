@@ -1,18 +1,17 @@
-import React from 'react';
-import {Link, Navigate, useNavigate, useParams} from "react-router-dom";
+import React, {useContext} from 'react';
+import {Link, useNavigate, useParams} from "react-router-dom";
 import { skinsData } from "../data.json";
-import Footer from "../components/Footer.jsx";
-import Navigation from "../components/Navigation.jsx";
 import "../styles/pages/SkinIdPage.css"
+import { usePurchase } from "../App.jsx";
 import {AuthContext} from "../context/AuthContext.jsx";
 
 const SkinIdPage = () => {
+    const {isAuth} = useContext(AuthContext);
     const { id } = useParams();
     const navigate = useNavigate();
 
-
-
     const skin = skinsData.find((s) => s.id === parseInt(id));
+    const {addPurchase} = usePurchase();
 
     if (!skin) {
         return (
@@ -74,10 +73,12 @@ const SkinIdPage = () => {
                         </p>
                     </div>
                     <button
+                        onClick = {() => addPurchase(skin)}
                         className="details__info__buy-btn"
-                        disabled={!skin.inStock}
+                        disabled={!skin.inStock || !isAuth}
                     >
-                    {skin.inStock ? 'Купить сейчас' : 'Нет в наличии'}
+{/*                    {skin.inStock ? 'Купить сейчас' : 'Нет в наличии'}*/}
+                        {skin.inStock ? isAuth ? 'Купить сейчас' : 'Войдите, чтобы приобрести' : 'Нет в наличии'}
                     </button>
                     </div>
                 </div>
