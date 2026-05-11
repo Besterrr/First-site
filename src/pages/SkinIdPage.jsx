@@ -77,7 +77,6 @@ const SkinIdPage = () => {
                         className="details__info__buy-btn"
                         disabled={!skin.inStock || !isAuth}
                     >
-{/*                    {skin.inStock ? 'Купить сейчас' : 'Нет в наличии'}*/}
                         {skin.inStock ? isAuth ? 'Купить сейчас' : 'Войдите, чтобы приобрести' : 'Нет в наличии'}
                     </button>
                     </div>
