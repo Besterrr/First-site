@@ -56,31 +56,6 @@
     font-size: 14px;
 }
 
-.search__clear-btn {
-    position: absolute;
-    right: 18px;
-    top: 50%;
-    transform: translateY(-50%);
-    background: none;
-    border: none;
-    color: rgb(104, 104, 109);
-    font-size: 20px;
-    cursor: pointer;
-    padding: 0;
-    width: 24px;
-    height: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    transition: all 0.3s ease;
-}
-
-.search-clear-btn:hover {
-    color: rgb(187, 81, 45);
-    background: rgba(187, 81, 45, 0.1);
-}
-
 .sellers-container__title{
     text-align: center;
     color: white;

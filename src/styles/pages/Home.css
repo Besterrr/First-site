@@ -86,7 +86,7 @@
     font-size: 14px;
 }
 
-.search__clear {
+.search__clear__btn{
     position: absolute;
     right: 18px;
     top: 50%;
@@ -106,7 +106,7 @@
     transition: all 0.3s ease;
 }
 
-.search__clear:hover {
+.search__clear__btn:hover {
     color: rgb(187, 81, 45);
     background: rgba(187, 81, 45, 0.1);
 }

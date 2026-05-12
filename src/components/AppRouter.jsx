@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter, Navigate, Route, Routes} from "react-router-dom";
+import { Navigate, Route, Routes} from "react-router-dom";
 import Layout from "./Layout.jsx";
 import Home from "../pages/Home.jsx";
 import About from "../pages/About.jsx";

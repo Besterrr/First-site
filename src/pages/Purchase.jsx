@@ -1,5 +1,5 @@
 import React from 'react';
-import { usePurchase } from "../App.jsx";
+import { usePurchase } from "../hooks/index.js";
 import { Link } from 'react-router-dom';
 import "../styles/pages/Purchase.css"
 
@@ -39,7 +39,6 @@ const Purchase = () => {
         );
     }
 
-    // Если в корзине есть товары
     return (
         <main className="cart">
             <div className="cart__column">

@@ -87,7 +87,7 @@ const Home = () => {
                         onChange={(e) => handleSearch(e.target.value)}
                     />
                     {searchQuery && (
-                        <button className="search__clear" onClick={clearSearch}>
+                        <button className="search__clear__btn" onClick={clearSearch}>
                             ✕
                         </button>
                     )}

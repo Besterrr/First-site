@@ -2,7 +2,7 @@ import React, {useContext} from 'react';
 import {Link, useNavigate, useParams} from "react-router-dom";
 import { skinsData } from "../data.json";
 import "../styles/pages/SkinIdPage.css"
-import { usePurchase } from "../App.jsx";
+import { usePurchase } from "../hooks/index.js";
 import {AuthContext} from "../context/AuthContext.jsx";
 
 const SkinIdPage = () => {

@@ -48,7 +48,7 @@ const Sellers = () => {
         result = result.slice(startIndex, endIndex);
 
         return result;
-    }, [searchQuery, sellers, page]);
+    }, [searchQuery, page]);
 
 
     const clearSearch = () => {
@@ -71,7 +71,7 @@ const Sellers = () => {
                                 onChange={(e) => handleSearchChange(e.target.value)}
                             />
                             {searchQuery && (
-                                <button className="search__clear-btn" onClick={clearSearch}>
+                                <button className="search__clear__btn" onClick={clearSearch}>
                                     ✕
                                 </button>
                             )}

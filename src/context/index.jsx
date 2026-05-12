@@ -3,45 +3,44 @@ import {AuthContext} from "./AuthContext.jsx";
 import {PurchaseContext} from "./PurchaseContext.jsx";
 
 export const AuthProvider = ({children}) => {
-    const [isAuth, setIsAuth] = useState(false);
-    const [user, setUser] = useState(null);
-    const [loading, setLoading] = useState(true);
-
-    useEffect(() => {
+    const [state, setState] = useState(() => {
         const auth = localStorage.getItem("auth");
         const savedUser = localStorage.getItem("user");
 
-        if (auth) {
-            setIsAuth(true);
-        }
-
-        if (savedUser) {
-            setUser(JSON.parse(savedUser));
-        }
-        setLoading(false);
-    }, []);
+        return {
+            isAuth: !!auth,
+            user: savedUser ? JSON.parse(savedUser) : null,
+            loading: false
+        };
+    });
 
     const login = (username) => {
-        setIsAuth(true);
-        setUser({ username });
+        setState({
+            isAuth: true,
+            user: { username },
+            loading: false
+        });
         localStorage.setItem("auth", "true");
         localStorage.setItem("user", JSON.stringify({ username }));
     };
 
     const logout = () => {
-        setIsAuth(false);
-        setUser(null);
+        setState({
+            isAuth: false,
+            user: null,
+            loading: false
+        });
         localStorage.removeItem("auth");
         localStorage.removeItem("user");
     };
 
     return (
         <AuthContext.Provider value={{
-            isAuth,
-            user,
+            isAuth: state.isAuth,
+            user: state.user,
             login,
             logout,
-            loading
+            loading: state.loading
         }}>
             {children}
         </AuthContext.Provider>
