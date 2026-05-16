@@ -8,7 +8,7 @@
 .skin-component__back-btn {
     background: none;
     border: none;
-    color: rgb(104, 104, 109);
+    color: var(--text-gray);
     font-size: 16px;
     cursor: pointer;
     padding: 8px 16px;
@@ -20,24 +20,24 @@
 }
 
 .skin-component__back-btn:hover {
-    color: rgb(187, 81, 45);
+    color: var(--accent-orange);
 }
 
 .component-details {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
-    background: rgba(30, 30, 40, 0.8);
+    background: var(--main-bg);
     border-radius: 20px;
     padding: 30px;
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid var(--border-gray);
 }
 
 .details__image-wrapper {
     border-radius: 15px;
     overflow: hidden;
-    background: rgba(0, 0, 0, 0.3);
+    background: var(--bg-dark);
 }
 
 .details__image {
@@ -55,12 +55,12 @@
 
 .details__info__skin-name {
     font-size: 32px;
-    color: white;
+    color: var(--white);
     margin-bottom: 10px;
 }
 
 .details__info-seller {
-    color: rgb(104, 104, 109);
+    color: var(--text-gray);
     font-size: 18px;
     display: flex;
     align-items: center;
@@ -75,14 +75,14 @@
 }
 
 .details__info-price__label {
-    color: rgb(104, 104, 109);
+    color: var(--text-gray);
     font-size: 16px;
 }
 
 .details__info-price__value {
     font-size: 36px;
     font-weight: 700;
-    color: rgb(187, 81, 45);
+    color: var(--text-orange);
 }
 
 .details__info-wear__badge {
@@ -124,11 +124,11 @@
 }
 
 .details__info-wear__label{
-    color: rgb(104, 104, 109);
+    color: var(--text-gray);
 }
 
 .details__info-stock__label{
-    color: rgb(104, 104, 109);
+    color: var(--text-gray);
 }
 
 .details__info-stock__badge {
@@ -155,13 +155,13 @@
 }
 
 .details__info-description_title {
-    color: white;
+    color: var(--white);
     margin-bottom: 10px;
     font-size: 20px;
 }
 
 .details__info-description_text {
-    color: rgb(104, 104, 109);
+    color: var(--text-gray);
     line-height: 1.6;
 }
 
@@ -180,7 +180,7 @@
 }
 
 .details__info__buy-btn:hover:not(:disabled) {
-    background: rgb(157, 61, 35);
+    background: var(--bg-orange);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(187, 81, 45, 0.4);
 }
@@ -196,12 +196,12 @@
 }
 
 .main-content__not-found h2 {
-    color: white;
+    color: var(--white);
     margin-bottom: 20px;
 }
 
 .main-content__not-found a {
-    color: rgb(187, 81, 45);
+    color: var(--text-orange);
     text-decoration: none;
 }
 

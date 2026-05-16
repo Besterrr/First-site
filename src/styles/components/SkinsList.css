@@ -8,7 +8,7 @@
 
 .catalog__title {
     text-align: center;
-    color: white;
+    color: var(--white);
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 40px;
@@ -24,7 +24,7 @@
     transform: translateX(-50%);
     width: 80px;
     height: 3px;
-    background: rgb(187, 81, 45);
+    background: var(--text-orange);
     border-radius: 2px;
 }
 
@@ -36,19 +36,19 @@
 }
 
 .catalog-grid__card {
-    background: rgba(30, 30, 40, 0.8);
+    background: var(--bg-dark);
     backdrop-filter: blur(10px);
     border-radius: 15px;
     overflow: hidden;
     transition: all 0.3s ease;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid var(--border-gray);
     position: relative;
 }
 
 .skin-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-    border-color: rgba(187, 81, 45, 0.5);
+    border-color: var(--border-orange);
 }
 
 .skin-card__image-wrapper {
@@ -89,7 +89,7 @@
 
 .skin-card__btn {
     padding: 10px 20px;
-    background: rgb(187, 81, 45);
+    background: var(--bg-orange);
     color: white;
     border: none;
     border-radius: 25px;
@@ -99,7 +99,7 @@
 }
 
 .skin-card__btn:hover {
-    background: rgb(157, 61, 35);
+    background: var(--bg-orange);
     transform: scale(1.05);
 }
 
@@ -108,7 +108,7 @@
 }
 
 .skin-card__name {
-    color: white;
+    color: var(--white);
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 12px;
@@ -116,7 +116,7 @@
 }
 
 .skin-card__seller {
-    color: rgb(104, 104, 109);
+    color: var(--text-gray);
     font-size: 14px;
     margin-bottom: 10px;
     display: flex;
@@ -131,7 +131,7 @@
 .skin-card__price {
     font-size: 22px;
     font-weight: 700;
-    color: rgb(187, 81, 45);
+    color: var(--text-orange);
     margin-bottom: 12px;
 }
 
@@ -211,12 +211,12 @@
 }
 
 .skin-card {
-    background: rgba(30, 30, 40, 0.8);
+    background: var(--card-bg);
     backdrop-filter: blur(10px);
     border-radius: 15px;
     overflow: hidden;
     transition: all 0.3s ease;
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    border: 1px solid var(--card-border);
     animation: fadeInUp 0.5s ease forwards;
 }
 

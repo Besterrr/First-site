@@ -109,8 +109,6 @@ const Home = () => {
                     )}
                 </div>
             )}
-
-            <hr style={{marginTop: "50px"}} color="2a2a3a"/>
         </main>
     );
 };

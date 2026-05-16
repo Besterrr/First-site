@@ -20,8 +20,7 @@ const Navigation = () => {
 
     return (
         <nav className="nav">
-            <hr/>
-
+            <hr className= "nav__hr"/>
             <div className="nav__container">
                 <div className="nav__logo">
                     <Link to="/" className="nav__logo-link">
@@ -99,7 +98,7 @@ const Navigation = () => {
 
             </div>
 
-            <hr/>
+            <hr className= "nav__hr"/>
         </nav>
     );
 };

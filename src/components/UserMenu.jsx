@@ -1,13 +1,14 @@
 import React, {useContext, useEffect, useRef} from 'react';
 import { Link } from 'react-router-dom';
 import {AuthContext} from "../context/AuthContext.jsx";
+import {ThemeContext} from "../context/ThemeContext.jsx";
 import '/src/styles/components/UserMenu.css';
 
 const UserMenu = ({ isOpen, onClose }) => {
+    const {theme, toggleTheme} = useContext(ThemeContext);
     const {user, logout} = useContext(AuthContext);
     const menuRef = useRef(null);
 
-    // Закрытие по клику вне меню
     useEffect(() => {
         const handleClickOutside = (event) => {
             if (menuRef.current && !menuRef.current.contains(event.target)) {
@@ -15,7 +16,6 @@ const UserMenu = ({ isOpen, onClose }) => {
             }
         };
 
-        // Закрытие по Escape
         const handleEscape = (event) => {
             if (event.key === 'Escape') {
                 onClose();
@@ -44,6 +44,7 @@ const UserMenu = ({ isOpen, onClose }) => {
         onClose();
     };
 
+
     return (
         <div className="user-menu-dropdown" ref={menuRef}>
             <div className="user-menu__list">
@@ -66,9 +67,11 @@ const UserMenu = ({ isOpen, onClose }) => {
                     <span>Настройки</span>
                 </Link>
 
-                <Link to="/my-skins" className="menu__item" onClick={handleItemClick}>
-                    <span>Мои скины</span>
-                </Link>
+                    <button
+                        className="menu__theme-btn"
+                        onClick={toggleTheme}>
+                        {theme === 'dark' ? '☀️ Светлая' : '🌙 Тёмная'}
+                    </button>
 
                 <div className="menu__divider" />
 

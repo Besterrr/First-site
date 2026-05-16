@@ -1,4 +1,4 @@
-import React, {useContext} from 'react';
+import React, {useContext, useState} from 'react';
 import {Link, useNavigate, useParams} from "react-router-dom";
 import { skinsData } from "../data.json";
 import "../styles/pages/SkinIdPage.css"
@@ -6,12 +6,23 @@ import { usePurchase } from "../hooks/index.js";
 import {AuthContext} from "../context/AuthContext.jsx";
 
 const SkinIdPage = () => {
+    const[isPurchasing, setIsPurchasing] = useState(true);
+
     const {isAuth} = useContext(AuthContext);
     const { id } = useParams();
     const navigate = useNavigate();
 
     const skin = skinsData.find((s) => s.id === parseInt(id));
     const {addPurchase} = usePurchase();
+
+    const handleBuy = async () => {
+        setIsPurchasing(false);
+        try{
+            await addPurchase(skin);
+        } finally {
+            setIsPurchasing(false);
+        }
+    }
 
     if (!skin) {
         return (
@@ -73,11 +84,15 @@ const SkinIdPage = () => {
                         </p>
                     </div>
                     <button
-                        onClick = {() => addPurchase(skin)}
+                        onClick = {handleBuy}
                         className="details__info__buy-btn"
-                        disabled={!skin.inStock || !isAuth}
+                        disabled={!skin.inStock || !isAuth || !isPurchasing}
                     >
-                        {skin.inStock ? isAuth ? 'Купить сейчас' : 'Войдите, чтобы приобрести' : 'Нет в наличии'}
+                        {!isPurchasing
+                            ? 'Покупка...'
+                            : skin.inStock
+                                ? isAuth ? 'Купить сейчас' : 'Войдите, чтобы приобрести'
+                                : 'Нет в наличии'}
                     </button>
                     </div>
                 </div>

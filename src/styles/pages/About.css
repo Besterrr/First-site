@@ -5,7 +5,7 @@
 }
 
 .about-content__title{
-    color: white;
+    color: var(--white);
     font-size: 48px;
     font-weight: bold;
     text-align: center;
@@ -49,7 +49,7 @@
     opacity: 0.7;
     border-radius: 16px;
     padding: 24px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid var(--border-gray);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -60,7 +60,7 @@
 }
 
 .achievement-card__title{
-    color: white;
+    color: var(--white);
     font-size: 25px;
     font-weight: bold;
 }
@@ -81,7 +81,7 @@
 .command-card{
     width: 75%;
     justify-self: center;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid var(--border-gray);
     border-radius: 16px;
 }
 
@@ -92,13 +92,13 @@
 .command-card__name{
     text-align: center;
     font-weight: bold;
-    color: rgba(224, 255, 255);
+    color: var(--white);
     font-size: 18px;
 }
 
 .command-card__role{
     margin-top: 10px;
     text-align: center;
-    color: rgba(224, 255, 255, 0.8);
+    color: var(--white);
     font-size: 16px;
 }

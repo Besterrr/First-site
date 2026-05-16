@@ -15,8 +15,8 @@
 .login-form__enter-button{
     width: 100%;
     padding: 12px 16px;
-    background: rgb(187, 81, 45);
-    color: white;
+    background: var(--text-orange);
+    color: var(--white);
     border: none;
     border-radius: 8px;
     font-size: 16px;
@@ -27,6 +27,6 @@
 }
 
 .login-form__enter-button:hover {
-    background: rgb(157, 61, 35);
+    background: var(--bg-orange);
     transform: translateY(-1px);
 }

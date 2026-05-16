@@ -24,8 +24,6 @@ html, body {
     flex: 1;
 }
 
-
-/* Общие стили для hr */
 hr {
     border: none;
     height: 1px;

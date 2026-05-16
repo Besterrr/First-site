@@ -1,12 +1,4 @@
-:root {
-    /* Цвета */
-    --bg-dark: rgb(18, 18, 26);
-    --text-gray: rgb(104, 104, 109);
-    --text-orange: rgb(187, 81, 45);
-    --accent-orange: rgb(187, 81, 45);
-    --border-gray: #2a2a3a;
-    --white: #ffffff;
-
+:root{
     /* Размеры */
     --container-width: 1312px;
     --card-width: 250px;
@@ -17,4 +9,70 @@
     /* Скругления */
     --radius-card: 10%;
     --radius-image: 15%;
+}
+
+[data-theme='dark'] {
+    --main-bg: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    --bg-dark: rgb(18, 18, 26);
+    --bg-orange: rgb(157, 61, 35);
+    --bg-gray: rgba(255, 255, 255, 0.1);
+
+    /* Карточки */
+    --card-bg: rgba(112, 111, 111, 0.1);
+    --card-border: var(--border-gray);
+    --card-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+
+    /* Текст */
+    --text-gray: rgb(104, 104, 109);
+    --text-orange: rgb(187, 81, 45);
+    --accent-orange: rgb(187, 81, 45);
+    --white: #ffffff;
+
+    /* Границы */
+    --border-gray: #2a2a3a;
+    --border-orange: rgba(187, 81, 45, 0.5);
+
+    /* Поиск и инпуты */
+    --input-bg: var(--bg-dark);
+    --input-border: var(--border-gray);
+
+    /* Навбар */
+    --nav-bg: rgba(18, 18, 26, 0.85);
+    --hr-color: rgb(104, 104, 109);
+
+    /* Пагинация */
+    --pg-bg: rgba(18, 18, 26, 0.85);
+}
+
+[data-theme='light'] {
+    --main-bg: linear-gradient(135deg, #f0f0f8 0%, #e8eaf6 100%);
+    --bg-dark: #ffffff;
+    --bg-orange: rgb(200, 100, 70);
+    --bg-gray: rgba(0, 0, 0, 0.06);
+
+    /* Карточки */
+    --card-bg: #e8e4e4;
+    --card-border: rgba(0, 0, 0, 0.08);
+    --card-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+
+    /* Текст */
+    --text-gray: rgb(100, 100, 110);
+    --text-orange: rgb(160, 60, 25);
+    --accent-orange: rgb(160, 60, 25);
+    --white: #1a1a2e;
+
+    /* Границы */
+    --border-gray: rgba(0, 0, 0, 0.1);
+    --border-orange: rgba(160, 60, 25, 0.15);
+
+    /* Поиск и инпуты */
+    --input-bg: #ffffff;
+    --input-border: rgba(0, 0, 0, 0.15);
+
+    /* Навбар */
+    --nav-bg: rgba(255, 255, 255, 0.85);
+    --hr-color: rgb(11, 10, 10);
+
+    /* Пагинация */
+    --pg-bg: rgb(166, 166, 186);
 }

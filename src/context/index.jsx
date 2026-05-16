@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import {AuthContext} from "./AuthContext.jsx";
 import {PurchaseContext} from "./PurchaseContext.jsx";
+import {ThemeContext} from "./ThemeContext.jsx";
 
 export const AuthProvider = ({children}) => {
     const [state, setState] = useState(() => {
@@ -99,6 +100,28 @@ export const PurchaseProvider = ({children}) => {
             {children}
         </PurchaseContext.Provider>
     );
+}
+
+export const ThemeProvider =({children}) => {
+    const [theme, setTheme] = useState(
+        () => localStorage.getItem("theme") || "dark"
+    );
+
+    useEffect(() => {
+        document.documentElement.setAttribute("data-theme", theme);
+        localStorage.setItem("theme", theme);
+    },[theme]);
+
+    const toggleTheme = () => {
+        setTheme(t => t === "dark" ? "light" : "dark");
+    }
+
+    return (
+        <ThemeContext.Provider value={{theme, toggleTheme}}>
+            {children}
+        </ThemeContext.Provider>
+    )
+
 }
 
 

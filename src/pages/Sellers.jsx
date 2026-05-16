@@ -101,7 +101,6 @@ const Sellers = () => {
                     )}
                 </div>
             )}
-            <hr/>
         </div>
     );
 };
